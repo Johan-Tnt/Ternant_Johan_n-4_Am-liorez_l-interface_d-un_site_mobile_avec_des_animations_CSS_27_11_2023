@@ -5,7 +5,7 @@
 
 /****** General ***********/
 * {
-  font-family: "Shirkland"; /*Logo et titres*/
+  /*Maj et personnalisation*/
   font-family: "Roboto"; /*Texte*/
   margin: 0;
   padding: 0;
@@ -13,6 +13,7 @@
 }
 
 :root {
+  /*Couleur du site*/
   --Primaire-color: #9356dc;
   --Secondaire-color: #ff79da;
   --Tertiaire-color: #99e2d0;
@@ -20,6 +21,9 @@
   --blue-color: #89c8fa;
   --blue2-color: #003a68;
   --white-color: #f3f3f3;
+}
+.h1 {
+  font-family: "Shirkland"; /*Logo et titres*/
 }
 
 /****** Media queries ***********/
