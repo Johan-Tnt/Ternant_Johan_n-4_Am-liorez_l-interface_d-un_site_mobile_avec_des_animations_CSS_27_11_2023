@@ -15,7 +15,7 @@
     />
   </head>
   <body>
-    <header>
+    <header class="logo_orientation">
       <img
         class="logo_position"
         src="./Assets/Images/OHMYFO~1.SVG"
@@ -25,57 +25,61 @@
       />
     </header>
 
-    <p><i class="fa-solid fa-location-dot"></i>Location : Paris, Belleville</p>
+    <section class="alignement_location">
+      <i class="fa-solid fa-location-dot"></i>Location : Paris, Belleville
+    </section>
 
     <main>
-      <section>
+      <section class="alignement_fonctionnement">
         <h1>Réservez le menu qui vous convient</h1>
         <p>Découvrez des restaurants d'exeption, sélectionnés par nos soins.</p>
-        <button>Explorer nos restaurants</button>
+        <button class="btn_exploration">Explorer nos restaurants</button>
       </section>
-      <section>
+      <section class="alignement_fonctionnement">
         <h2>Fonctionnement</h2>
-        <button>Choisissez un restaurant</button>
-        <button>Composez votre menu</button>
-        <button>Dégustez au restaurants</button>
+        <button class="btn_fonctionnement">Choisissez un restaurant</button>
+        <button class="btn_fonctionnement">Composez votre menu</button>
+        <button class="btn_fonctionnement">Dégustez au restaurants</button>
       </section>
       <section>
-        <h2>Restaurants</h2>
-        <div>
-          <img
-            class="img_restaurants"
-            src="./Assets/Restaurants/JAY-WE~1.JPG"
-            alt="Restaurants"
-          />
-          <h3>La palette du goût</h3>
-          <p>Ménilmontant</p>
-        </div>
-        <div>
-          <img
-            class="img_restaurants"
-            src="./Assets/Restaurants/TOA-HE~1.JPG"
-            alt="Restaurants"
-          />
-          <h3>La note enchantée</h3>
-          <p>Charonne</p>
-        </div>
-        <div>
-          <img
-            class="img_restaurants"
-            src="./Assets/Restaurants/STIL-U~1.JPG"
-            alt="Restaurants"
-          />
-          <h3>À la française</h3>
-          <p>Cité Rouge</p>
-        </div>
-        <div>
-          <img
-            class="img_restaurants"
-            src="./Assets/Restaurants/LOUIS-~1.JPG"
-            alt="Restaurants"
-          />
-          <h3>Le délice des sens</h3>
-          <p>Folie-Méricourt</p>
+        <h2 class="alignement_restaurants">Restaurants</h2>
+        <div class="bloc_restaurants">
+          <div>
+            <img
+              class="img_restaurants"
+              src="./Assets/Restaurants/JAY-WE~1.JPG"
+              alt="Restaurants"
+            />
+            <h3>La palette du goût</h3>
+            <p>Ménilmontant</p>
+          </div>
+          <div>
+            <img
+              class="img_restaurants"
+              src="./Assets/Restaurants/TOA-HE~1.JPG"
+              alt="Restaurants"
+            />
+            <h3>La note enchantée</h3>
+            <p>Charonne</p>
+          </div>
+          <div>
+            <img
+              class="img_restaurants"
+              src="./Assets/Restaurants/STIL-U~1.JPG"
+              alt="Restaurants"
+            />
+            <h3>À la française</h3>
+            <p>Cité Rouge</p>
+          </div>
+          <div>
+            <img
+              class="img_restaurants"
+              src="./Assets/Restaurants/LOUIS-~1.JPG"
+              alt="Restaurants"
+            />
+            <h3>Le délice des sens</h3>
+            <p>Folie-Méricourt</p>
+          </div>
         </div>
       </section>
     </main>
@@ -91,18 +95,22 @@
               height="27"
             />
             <li class="li_footer">
-              <a href="#"
+              <a href="#" class="lien_footer"
                 ><i class="fa-solid fa-utensils"></i>Proposer un restaurant</a
               >
             </li>
             <li class="li_footer">
-              <a href="#"
+              <a href="#" class="lien_footer"
                 ><i class="fa-solid fa-handshake-angle"></i>Devenir
                 partenaire</a
               >
             </li>
-            <li class="li_footer"><a href="#">Mentions légales Contact</a></li>
-            <li class="li_footer"><a href="#">Contact</a></li>
+            <li class="li_footer">
+              <a href="#" class="lien_footer">Mentions légales Contact</a>
+            </li>
+            <li class="li_footer">
+              <a href="#" class="lien_footer">Contact</a>
+            </li>
           </ul>
         </div>
       </nav>

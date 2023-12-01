@@ -2,6 +2,10 @@
 /*CSS du header*/
 
 /***Haut du site internet***/
+.logo_orientation {
+  display: flex;
+  justify-content: center;
+}
 .logo_position {
   margin-bottom: 13px;
   margin-top: 14px;

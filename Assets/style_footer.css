@@ -13,3 +13,7 @@
 .space_footer {
   padding: 22px 25px;
 }
+.lien_footer {
+  color: white;
+  text-decoration: none;
+}
