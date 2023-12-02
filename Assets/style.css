@@ -5,7 +5,8 @@
 
 /****** General ***********/
 * {
-  /*Maj et personnalisation*/
+  /*Personnalisation*/
+  /*font-family: "Shirkland"; /*Logo et titres*/
   font-family: "Roboto"; /*Texte*/
   margin: 0;
   padding: 0;
@@ -22,9 +23,6 @@
   --blue2-color: #003a68;
   --white-color: #f3f3f3;
   --grey-: #eaeaea;
-}
-.h1 {
-  font-family: "Shirkland"; /*Logo et titres*/
 }
 
 /****** Media queries ***********/
