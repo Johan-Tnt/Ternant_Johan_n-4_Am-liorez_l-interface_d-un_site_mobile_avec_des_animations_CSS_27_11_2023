@@ -10,13 +10,21 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
+.space_location {
+  font-size: 16px;
+}
 .background_grey {
   background: var(--Background, #f6f6f6);
   /*Background gris clair pour réservations et restaurants*/
 }
+.space_reservation {
+  font-size: 24px;
+  text-align: center;
+}
 .space_discovery {
   padding-bottom: 15px;
+  font-size: 18px;
+  text-align: center;
 }
 .btn_exploration {
   border-radius: 25px;
@@ -30,6 +38,7 @@
   width: auto;
   height: 50px;
   border-color: #9356dc;
+  font-size: 16px;
 }
 /*Contient les éléments de Fonctionnements*/
 .space_fonctionnement {
@@ -51,6 +60,7 @@
   width: auto;
   height: 72px;
   border-color: #f6f6f6;
+  font-size: 16px;
 }
 .icon_body {
   padding-right: 15px;
@@ -63,17 +73,24 @@
 }
 .img_restaurants {
   width: 100%;
-  height: 231px;
+  height: 181px;
   object-fit: cover;
   border-radius: 15px 15px 0 0;
-  border: 1px solid var(--white-color);
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
 .bloc_restaurants {
+  padding: 5px;
+  padding-bottom: 50px;
+}
+
+.card_restaurants {
   background: #fff;
   border-radius: 15px;
-  padding: 5px;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
-  padding-bottom: 50px;
+  height: 250px;
+}
+.description_restaurants {
+  text-decoration: none;
+  color: black;
 }
