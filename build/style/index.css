@@ -1,5 +1,11 @@
+@charset "UTF-8";
 body {
   background-color: rgb(0, 0, 0);
+}
+
+.background_grey {
+  background: var(--Background, #f6f6f6);
+  /*Background gris clair pour réservations et restaurants*/
 }
 
 /*# sourceMappingURL=index.css.map */
