@@ -3,7 +3,7 @@
 
 /***Bas du site internet***/
 .footer {
-  background: var(--Grey, #353535);
+  background: var(--grey, #353535);
   /*Pour le rectangle gris foncé du Footer*/
 }
 .li_footer {
