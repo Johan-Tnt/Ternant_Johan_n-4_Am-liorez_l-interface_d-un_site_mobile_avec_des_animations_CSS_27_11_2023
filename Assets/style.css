@@ -2,6 +2,7 @@
 @import "./style_header.css";
 @import "./style_body.css";
 @import "./style_footer.css";
+@import "./variables.scss";
 
 /****** General ***********/
 * {
