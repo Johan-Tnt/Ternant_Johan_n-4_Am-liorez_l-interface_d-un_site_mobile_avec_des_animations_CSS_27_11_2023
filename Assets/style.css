@@ -6,12 +6,19 @@
 
 /****** General ***********/
 * {
-  /*Personnalisation*/
-  /*font-family: "Shirkland", sans-serif; /*Logo et titres*/
-  font-family: "Roboto", sans-serif; /*Texte*/
+  /*Personnalisation et mise en page*/
+  font-family: "Roboto", sans-serif;
+  /*Police de charactère pour le Texte*/
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.title_menu {
+  font-family: "Shrikhand";
+  /*Police de charactère pour les Titres et Logo*/
+  font-size: 28px;
+  padding-bottom: 25px;
 }
 
 :root {

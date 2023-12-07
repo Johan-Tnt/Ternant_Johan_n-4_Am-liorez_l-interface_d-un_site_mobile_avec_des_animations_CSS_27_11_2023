@@ -9,13 +9,14 @@
   background: var(--grey-2, #eaeaea);
   padding-top: 10px;
   padding-bottom: 10px;
+  /*Contient le background gris pour la localisation*/
 }
 .space_location {
   font-size: 16px;
 }
 .background_grey {
   background: var(--Background, #f6f6f6);
-  /*Background gris clair pour réservations et restaurants*/
+  /*Background gris clair pour réservations et restaurants ainsi que pour les menus*/
 }
 .space_reservation {
   font-size: 24px;
@@ -41,6 +42,7 @@
   border-style: none;
   cursor: pointer;
   transition: all 0.5s;
+  /*Contient le btn exploration*/
 }
 .btn_exploration:hover {
   box-shadow: 10px 5px 5px var(--grey-2);
@@ -60,13 +62,13 @@
 .btn_fonctionnement {
   border-radius: 20px;
   background: var(--Background, #f6f6f6);
-  /* Shadow/Instructions */
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
   width: auto;
   height: 72px;
   border-color: #f6f6f6;
   font-size: 16px;
   border-style: none;
+  /*Contient les 3 btn de fonctionnement*/
 }
 .icon_body {
   padding-right: 25px;
@@ -83,6 +85,7 @@
   object-fit: cover;
   border-radius: 15px 15px 0 0;
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  /*Contient les réglages pour les img de la homepage*/
 }
 
 .bloc_restaurants {
@@ -99,4 +102,45 @@
 .description_restaurants {
   text-decoration: none;
   color: black;
+}
+
+/***Body des menus du site internet***/
+/*Contient les éléments des menus*/
+
+.menu_all {
+  border-radius: 30px;
+}
+
+.img_menu {
+  width: 100%;
+  height: 275px;
+  object-fit: cover;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  /*Contient les réglages pour les img des menus*/
+}
+
+.menu_like {
+  padding-left: 30px;
+  /*Contient l'espacement des coeurs "like"*/
+}
+
+.space_menu {
+  padding-top: 40px;
+}
+
+.btn_menu {
+  text-align: start;
+  padding-left: 15px;
+}
+
+.space_euro {
+  font-weight: bold;
+}
+
+.plate_content {
+  font-size: 18px;
+}
+
+.plate_price {
+  font-size: 15px;
 }
