@@ -147,3 +147,8 @@
 .plate_price {
   font-size: 15px;
 }
+
+.arrow_space {
+  margin: 20px;
+  /*padding-right: 30px;*/
+}
