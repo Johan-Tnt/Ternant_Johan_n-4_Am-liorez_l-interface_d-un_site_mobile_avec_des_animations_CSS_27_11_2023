@@ -9,6 +9,7 @@
   background: var(--grey-2, #eaeaea);
   padding-top: 10px;
   padding-bottom: 10px;
+  border-top: solid 2px rgba(0, 0, 0, 4%);
   /*Contient le background gris pour la localisation*/
 }
 .space_location {
@@ -51,6 +52,17 @@
   box-shadow: 10px 5px 5px var(--grey-2);
 }
 /*Contient les éléments de Fonctionnements*/
+.circle_number {
+  border: 1px solid var(--primary-color);
+  background-color: var(--primary-color);
+  border-radius: 25px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f6f6f6;
+}
 .space_fonctionnement {
   padding-top: 25px;
 }

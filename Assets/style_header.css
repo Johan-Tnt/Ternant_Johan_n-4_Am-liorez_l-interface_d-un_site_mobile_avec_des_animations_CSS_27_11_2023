@@ -9,6 +9,10 @@
 .logo_position {
   margin-bottom: 13px;
   margin-top: 14px;
-  margin-right: 70px;
 }
-/*Logo OhMyFood*/
+/*Logo OhMyFood pour la Homepage*/
+
+.logo_menu {
+  margin-right: 80px;
+}
+/*Logo pour les pages menu*/
