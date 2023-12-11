@@ -64,6 +64,7 @@
   justify-content: center;
   color: #f6f6f6;
   font-size: 14px;
+  position: absolute;
 }
 .space_fonctionnement {
   padding-top: 25px;
@@ -85,6 +86,7 @@
   border-color: #f6f6f6;
   font-size: 16px;
   border-style: none;
+  padding-top: 30px;
   /*Contient les 3 btn de fonctionnement*/
 }
 .icon_body {
@@ -94,16 +96,17 @@
 
 /*Contient les éléments de Restaurants*/
 .badge_new {
-  border: 1px solid var(--green-font-color);
-  background-color: var(--green-font-color);
+  border: 1px solid var(--tertiary-color);
+  background-color: var(--tertiary-color);
   width: 80px;
   height: 29px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--tertiary-color);
+  color: var(--green-font-color);
   font-size: 14px;
   margin-left: 270px;
+  position: absolute;
 }
 .alignement_restaurants {
   padding: 20px;
@@ -128,12 +131,16 @@
   border-radius: 15px;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
   height: 250px;
+  margin-top: 15px;
 }
 .description_restaurants {
   text-decoration: none;
   color: black;
 }
-
+.restaurants_content {
+  padding-left: 10px;
+  padding-top: 5px;
+}
 /***Body des menus du site internet***/
 /*Contient les éléments des menus*/
 
