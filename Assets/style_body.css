@@ -96,7 +96,6 @@
 
 /*Contient les éléments de Restaurants*/
 .badge_new {
-  /*border: 1px solid var(--tertiary-color);*/
   border-radius: 3px;
   background-color: var(--tertiary-color);
   width: 80px;
