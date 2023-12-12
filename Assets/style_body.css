@@ -86,8 +86,11 @@
   border-color: #f6f6f6;
   font-size: 16px;
   border-style: none;
-  padding-top: 30px;
+
   /*Contient les 3 btn de fonctionnement*/
+}
+.btn_fonctionnement_2 {
+  padding-top: 30px;
 }
 .icon_body {
   padding-right: 25px;
@@ -148,7 +151,9 @@
 .menu_all {
   border-radius: 30px;
 }
-
+.title_logo {
+  padding-right: 90px;
+}
 .line_green {
   border-bottom: 3px solid var(--tertiary-color);
   width: 40px;
