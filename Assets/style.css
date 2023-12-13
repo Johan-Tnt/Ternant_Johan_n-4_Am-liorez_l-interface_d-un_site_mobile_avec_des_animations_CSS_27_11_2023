@@ -5,6 +5,7 @@
 @import "./variables.scss";
 @import "./layouts/header.scss";
 @import "./layouts/footer.scss";
+@import "./base/normalize.scss";
 
 /****** Media queries ***********/
 /* Medium devices (tablets, 1024px) */

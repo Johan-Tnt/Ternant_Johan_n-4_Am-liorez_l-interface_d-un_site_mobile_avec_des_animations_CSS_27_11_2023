@@ -4,12 +4,8 @@
 @import "./base/normalize.scss";
 @import "./components/btn.scss";
 @import "./components/icon.scss";
+
 $black: black;
 body {
   color: black;
-}
-
-.background_grey {
-  background: var(--Background, #f6f6f6);
-  /*Background gris clair pour réservations et restaurants*/
 }
