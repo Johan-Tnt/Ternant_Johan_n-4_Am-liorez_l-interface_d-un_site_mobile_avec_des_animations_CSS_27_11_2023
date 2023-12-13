@@ -1,6 +1,8 @@
 @import "./utils/variables.scss";
 @import "./layouts/header.scss";
 @import "./layouts/footer.scss";
+@import "./base/normalize.scss";
+
 $black: black;
 body {
   color: black;

@@ -1,0 +1,45 @@
+.btn_exploration {
+  border-radius: 25px;
+  background: var(
+    --Button-Gradient,
+    linear-gradient(193deg, #9356dc -11.44%, #ff79da 123.93%)
+  );
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  color: $white-color;
+  width: auto;
+  height: 50px;
+  border-color: $secondary-color;
+  font-size: 16px;
+  border-style: none;
+  cursor: pointer;
+  transition: all 0.5s;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  /*Contient le btn exploration*/
+}
+.btn_exploration:hover {
+  box-shadow: 10px 5px 5px var(--grey-2);
+}
+
+.btn_fonctionnement {
+  border-radius: 20px;
+  background: $background-grey;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+  width: auto;
+  height: 72px;
+  border-color: $background-grey;
+  font-size: 16px;
+  border-style: none;
+
+  /*Contient les 3 btn de fonctionnement*/
+}
+.btn_fonctionnement_2 {
+  padding-top: 30px;
+  font-weight: bold;
+}
+
+.btn_menu {
+  text-align: start;
+  padding-left: 15px;
+}
