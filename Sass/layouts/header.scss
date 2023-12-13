@@ -1,3 +1,21 @@
 header {
   background-color: $green-font-color;
 }
+/*Le code ci-dessous correspond à mes rajouts de code/*Johan*/
+/*CSS du header*/
+
+/***Haut du site internet***/
+.logo_orientation {
+  display: flex;
+  justify-content: center;
+}
+.logo_position {
+  margin-bottom: 13px;
+  margin-top: 14px;
+}
+/*Logo OhMyFood pour la Homepage*/
+
+.logo_menu {
+  margin-right: 80px;
+}
+/*Logo pour les pages menu*/

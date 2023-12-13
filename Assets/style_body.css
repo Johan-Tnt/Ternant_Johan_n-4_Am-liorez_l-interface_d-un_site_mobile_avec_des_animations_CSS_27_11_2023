@@ -148,10 +148,16 @@
 }
 /***Body des menus du site internet***/
 /*Contient les éléments des menus*/
-
+/*.title_menu {
+  font-family: "Shrikhand", serif;
+  /*Police de charactère pour les Titres et Logo*/
+/*font-size: 28px;
+  padding-bottom: 25px;
+/*}*/
 .menu_all {
   border-radius: 30px;
 }
+
 .title_logo {
   padding-right: 90px;
 }

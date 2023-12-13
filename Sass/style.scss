@@ -1,9 +1,9 @@
 @import "./utils/variables.scss";
 @import "./layouts/header.scss";
+@import "./layouts/footer.scss";
 $black: black;
 body {
-  background-color: rgb(0, 0, 0);
-  color: $tertiaire-color;
+  color: black;
 }
 
 .background_grey {

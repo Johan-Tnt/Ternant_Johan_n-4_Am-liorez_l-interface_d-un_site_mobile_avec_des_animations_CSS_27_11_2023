@@ -1,19 +1,27 @@
-$primaire-color: #9356dc;
-
-$secondaire-color: #ff79da;
-
-$tertiaire-color: #99e2d0;
-
+/*Couleurs du site OhMyfood*/
+$primary-color: #9356dc;
+$secondary-color: #ff79da;
+$tertiary-color: #99e2d0;
 $green-font-color: #008766;
-
 $blue-color: #89c8fa;
-
 $blue2-color: #003a68;
-
 $white-color: #f3f3f3;
-
 $grey: #353535;
-
 $grey-2: #eaeaea;
-
 $background-grey: #f6f6f6;
+
+* {
+  /*Personnalisation et mise en page*/
+  font-family: "Roboto", sans-serif;
+  /*Police de charactère pour le Texte*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title_menu {
+  font-family: "Shrikhand", serif;
+  /*Police de charactère pour les Titres et Logo*/
+  font-size: 28px;
+  padding-bottom: 25px;
+}

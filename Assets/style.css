@@ -3,27 +3,21 @@
 @import "./style_body.css";
 @import "./style_footer.css";
 @import "./variables.scss";
+@import "./layouts/header.scss";
+@import "./layouts/footer.scss";
 
 /****** General ***********/
-* {
+/** {
   /*Personnalisation et mise en page*/
-  font-family: "Roboto", sans-serif;
+/*font-family: "Roboto", sans-serif;
   /*Police de charactère pour le Texte*/
-  margin: 0;
+/*margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box;*/
+/*}*/
 
-.title_menu {
-  font-family: "Shrikhand", serif;
-  /*Police de charactère pour les Titres et Logo*/
-  font-size: 28px;
-  padding-bottom: 25px;
-}
-
-:root {
-  /*Couleurs du site OhMyfood*/
-  --primary-color: #9356dc;
+/*:root {
+/* --primary-color: #9356dc;
   --secondary-color: #ff79da;
   --tertiary-color: #99e2d0;
   --green-font-color: #008766;
@@ -33,7 +27,7 @@
   --grey: #353535;
   --grey-2: #eaeaea;
   --background-grey: #f6f6f6;
-}
+/*}*/
 
 /****** Media queries ***********/
 /* Medium devices (tablets, 1024px) */
