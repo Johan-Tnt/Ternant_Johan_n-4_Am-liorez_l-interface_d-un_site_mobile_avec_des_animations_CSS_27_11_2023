@@ -2,11 +2,11 @@
 /*CSS du footer*/
 
 /***Bas du site internet***/
-.footer {
+/*.footer {
   background: var(--grey, #353535);
   /*Pour le rectangle gris foncé du Footer*/
-}
-.li_footer {
+/*}*/
+/*.li_footer {
   list-style-type: none;
   font-size: 16px;
   padding-top: 7px;
@@ -20,4 +20,4 @@
 }
 .icon_footer {
   padding-right: 10px;
-}
+}*/

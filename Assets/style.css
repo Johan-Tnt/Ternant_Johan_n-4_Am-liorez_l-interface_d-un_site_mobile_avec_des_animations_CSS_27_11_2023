@@ -6,29 +6,6 @@
 @import "./layouts/header.scss";
 @import "./layouts/footer.scss";
 
-/****** General ***********/
-/** {
-  /*Personnalisation et mise en page*/
-/*font-family: "Roboto", sans-serif;
-  /*Police de charactère pour le Texte*/
-/*margin: 0;
-  padding: 0;
-  box-sizing: border-box;*/
-/*}*/
-
-/*:root {
-/* --primary-color: #9356dc;
-  --secondary-color: #ff79da;
-  --tertiary-color: #99e2d0;
-  --green-font-color: #008766;
-  --blue-color: #89c8fa;
-  --blue2-color: #003a68;
-  --white-color: #f3f3f3;
-  --grey: #353535;
-  --grey-2: #eaeaea;
-  --background-grey: #f6f6f6;
-/*}*/
-
 /****** Media queries ***********/
 /* Medium devices (tablets, 1024px) */
 @media (max-width: 1024px) {

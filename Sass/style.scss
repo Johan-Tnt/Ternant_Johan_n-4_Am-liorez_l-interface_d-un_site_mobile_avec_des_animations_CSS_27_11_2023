@@ -2,7 +2,8 @@
 @import "./layouts/header.scss";
 @import "./layouts/footer.scss";
 @import "./base/normalize.scss";
-
+@import "./components/btn.scss";
+@import "./components/icon.scss";
 $black: black;
 body {
   color: black;

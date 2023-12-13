@@ -1,3 +1,5 @@
+/**Boutons du body de la homepage**/
+/*Contient les boutons du site internet*/
 .btn_exploration {
   border-radius: 25px;
   background: var(
@@ -19,7 +21,8 @@
   /*Contient le btn exploration*/
 }
 .btn_exploration:hover {
-  box-shadow: 10px 5px 5px var(--grey-2);
+  box-shadow: 10px 5px 5px $grey-2;
+  /*Contient le btn hover exploration*/
 }
 
 .btn_fonctionnement {
@@ -31,14 +34,15 @@
   border-color: $background-grey;
   font-size: 16px;
   border-style: none;
-
-  /*Contient les 3 btn de fonctionnement*/
+  /*Contient les btn de fonctionnement et les btn des menus*/
 }
 .btn_fonctionnement_2 {
   padding-top: 30px;
   font-weight: bold;
+  /*Contient la mise en page des btn fonctionnements*/
 }
-
+/**Boutons du body des menus**/
+/*Contient les boutons du site internet*/
 .btn_menu {
   text-align: start;
   padding-left: 15px;
