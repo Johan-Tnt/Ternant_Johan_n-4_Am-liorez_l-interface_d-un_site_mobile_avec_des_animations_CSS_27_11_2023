@@ -1,6 +1,8 @@
 @charset "UTF-8";
-/*Couleurs du site OhMyfood*/
-/*Le code ci-dessous correspond à mes rajouts de code/*Johan*/
+/*Johan*/ /*Modules*/
+/*Contient le code de la mise en page générale des couleurs OhMyFood*/
+/*Johan*/
+/*Johan*/
 /*CSS du header*/
 /***Haut du site internet***/
 .logo_orientation {
@@ -19,7 +21,7 @@
 }
 
 /*Logo pour les pages menu*/
-/*Le code ci-dessous correspond à mes rajouts de code/*Johan*/
+/*Johan*/
 /*CSS du footer*/
 /***Bas du site internet***/
 .footer {
@@ -42,6 +44,8 @@
   text-decoration: none;
 }
 
+/*Johan*/
+/*Contient le code de la mise en page générale du site internet*/
 * {
   /*Personnalisation et mise en page*/
   font-family: "Roboto", sans-serif;
@@ -58,8 +62,9 @@
   padding-bottom: 25px;
 }
 
+/*Johan*/
 /**Boutons du body de la homepage**/
-/*Contient les boutons du site internet*/
+/*Contient les boutons du OhMyFood*/
 .btn_exploration {
   border-radius: 25px;
   background: var(--Button-Gradient, linear-gradient(193deg, #9356dc -11.44%, #ff79da 123.93%));
@@ -128,7 +133,7 @@
   padding-right: 20px;
 }
 
-/*Le code ci-dessous correspond à mes rajouts de code/*Johan*/
+/*Johan*/
 /*CSS restant du rajout de code*/
 /***Body du site internet***/
 /*Contient les éléments de Location*/
