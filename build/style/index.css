@@ -1,21 +1,5 @@
 @charset "UTF-8";
 /*Couleurs du site OhMyfood*/
-* {
-  /*Personnalisation et mise en page*/
-  font-family: "Roboto", sans-serif;
-  /*Police de charactère pour le Texte*/
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.title_menu {
-  font-family: "Shrikhand", serif;
-  /*Police de charactère pour les Titres et Logo*/
-  font-size: 28px;
-  padding-bottom: 25px;
-}
-
 /*Le code ci-dessous correspond à mes rajouts de code/*Johan*/
 /*CSS du header*/
 /***Haut du site internet***/
@@ -56,6 +40,92 @@
 .lien_footer {
   color: #fff;
   text-decoration: none;
+}
+
+* {
+  /*Personnalisation et mise en page*/
+  font-family: "Roboto", sans-serif;
+  /*Police de charactère pour le Texte*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title_menu {
+  font-family: "Shrikhand", serif;
+  /*Police de charactère pour les Titres et Logo*/
+  font-size: 28px;
+  padding-bottom: 25px;
+}
+
+/**Boutons du body de la homepage**/
+/*Contient les boutons du site internet*/
+.btn_exploration {
+  border-radius: 25px;
+  background: var(--Button-Gradient, linear-gradient(193deg, #9356dc -11.44%, #ff79da 123.93%));
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  color: #f3f3f3;
+  width: auto;
+  height: 50px;
+  border-color: #ff79da;
+  font-size: 16px;
+  border-style: none;
+  cursor: pointer;
+  transition: all 0.5s;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  /*Contient le btn exploration*/
+}
+
+.btn_exploration:hover {
+  box-shadow: 10px 5px 5px #eaeaea;
+  /*Contient le btn hover exploration*/
+}
+
+.btn_fonctionnement {
+  border-radius: 20px;
+  background: #f6f6f6;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+  width: auto;
+  height: 72px;
+  border-color: #f6f6f6;
+  font-size: 16px;
+  border-style: none;
+  /*Contient les btn de fonctionnement et les btn des menus*/
+}
+
+.btn_fonctionnement_2 {
+  padding-top: 30px;
+  font-weight: bold;
+  /*Contient la mise en page des btn fonctionnements*/
+}
+
+/**Boutons du body des menus**/
+/*Contient les boutons du site internet*/
+.btn_menu {
+  text-align: start;
+  padding-left: 15px;
+}
+
+/**Icon du body de la homepage**/
+/*Contient la mise en page des icons*/
+.icon_body {
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+
+/**Icon du body des menus**/
+/*Contient la mise en page des icons*/
+.menu_like {
+  padding-left: 30px;
+  /*Contient l'espacement des coeurs "like"*/
+}
+
+/**Icon du footer*/
+/*Contient la mise en page des icons*/
+.icon_footer {
+  padding-right: 20px;
 }
 
 /*Le code ci-dessous correspond à mes rajouts de code/*Johan*/
@@ -177,11 +247,11 @@
 /***Body des menus du site internet***/
 /*Contient les éléments des menus*/
 /*.title_menu {
-    font-family: "Shrikhand", serif;
-    /*Police de charactère pour les Titres et Logo*/
+      font-family: "Shrikhand", serif;
+      /*Police de charactère pour les Titres et Logo*/
 /*font-size: 28px;
-    padding-bottom: 25px;
-  /*}*/
+      padding-bottom: 25px;
+    /*}*/
 .menu_all {
   border-radius: 30px;
 }
@@ -222,76 +292,6 @@
 .arrow_space {
   margin: 20px;
   /*padding-right: 30px;*/
-}
-
-/**Boutons du body de la homepage**/
-/*Contient les boutons du site internet*/
-.btn_exploration {
-  border-radius: 25px;
-  background: var(--Button-Gradient, linear-gradient(193deg, #9356dc -11.44%, #ff79da 123.93%));
-  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-  color: #f3f3f3;
-  width: auto;
-  height: 50px;
-  border-color: #ff79da;
-  font-size: 16px;
-  border-style: none;
-  cursor: pointer;
-  transition: all 0.5s;
-  text-align: center;
-  padding: 15px;
-  text-decoration: none;
-  /*Contient le btn exploration*/
-}
-
-.btn_exploration:hover {
-  box-shadow: 10px 5px 5px #eaeaea;
-  /*Contient le btn hover exploration*/
-}
-
-.btn_fonctionnement {
-  border-radius: 20px;
-  background: #f6f6f6;
-  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
-  width: auto;
-  height: 72px;
-  border-color: #f6f6f6;
-  font-size: 16px;
-  border-style: none;
-  /*Contient les btn de fonctionnement et les btn des menus*/
-}
-
-.btn_fonctionnement_2 {
-  padding-top: 30px;
-  font-weight: bold;
-  /*Contient la mise en page des btn fonctionnements*/
-}
-
-/**Boutons du body des menus**/
-/*Contient les boutons du site internet*/
-.btn_menu {
-  text-align: start;
-  padding-left: 15px;
-}
-
-/**Icon du body de la homepage**/
-/*Contient la mise en page des icons*/
-.icon_body {
-  padding-right: 25px;
-  padding-bottom: 25px;
-}
-
-/**Icon du body des menus**/
-/*Contient la mise en page des icons*/
-.menu_like {
-  padding-left: 30px;
-  /*Contient l'espacement des coeurs "like"*/
-}
-
-/**Icon du footer*/
-/*Contient la mise en page des icons*/
-.icon_footer {
-  padding-right: 20px;
 }
 
 body {
