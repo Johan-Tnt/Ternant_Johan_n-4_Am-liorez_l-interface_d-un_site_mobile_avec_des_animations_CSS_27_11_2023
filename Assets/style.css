@@ -9,12 +9,3 @@
 @import "./base/normalize.scss";
 @import "./pages/homepage.scss";
 @import "./pages/menu.scss";
-
-/****** Media queries ***********/
-/* Medium devices (tablets, 1024px) */
-@media (max-width: 1024px) {
-}
-
-/* Large devices (desktop, 1440px) */
-@media (max-width: 1440px) {
-}
