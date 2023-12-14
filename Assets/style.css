@@ -1,4 +1,5 @@
-/*Johan*/ /*Modules*/
+/*Johan début du code*/
+/*Modules*/
 @import "./style_header.css";
 @import "./style_body.css";
 @import "./style_footer.css";
@@ -6,6 +7,8 @@
 @import "./layouts/header.scss";
 @import "./layouts/footer.scss";
 @import "./base/normalize.scss";
+@import "./pages/homepage.scss";
+@import "./pages/menu.scss";
 
 /****** Media queries ***********/
 /* Medium devices (tablets, 1024px) */

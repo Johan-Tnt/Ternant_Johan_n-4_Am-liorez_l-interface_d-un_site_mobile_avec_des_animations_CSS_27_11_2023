@@ -1,4 +1,5 @@
-/*Johan*/ /*Modules*/
+/*Johan début du code*/
+/*Modules*/
 @import "./utils/variables.scss";
 @import "./layouts/header.scss";
 @import "./layouts/footer.scss";
@@ -6,8 +7,10 @@
 @import "./components/btn.scss";
 @import "./components/icon.scss";
 @import "./pages/homepage.scss";
+@import "./pages/menu.scss";
 
 $black: black;
 body {
   color: black;
 }
+/*Fin du code*/
