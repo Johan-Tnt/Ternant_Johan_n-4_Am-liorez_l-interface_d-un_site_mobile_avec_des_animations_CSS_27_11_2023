@@ -6,7 +6,7 @@
 /*Fin du code*/
 /*Johan début du code*/
 /*CSS du header*/
-/***Haut du site internet***/
+/***Haut du site OhMyFood***/
 .logo_orientation {
   display: flex;
   justify-content: center;
@@ -26,7 +26,7 @@
 /*Fin du code*/
 /*Johan début du code*/
 /*CSS du footer*/
-/***Bas du site internet***/
+/***Bas du site OhMyFood***/
 .footer {
   background-color: #353535;
   /*Pour le rectangle gris foncé du Footer*/
@@ -49,7 +49,7 @@
 
 /*Fin du code*/
 /*Johan*/
-/*Contient le code de la mise en page générale du site internet*/
+/*Contient le code de la mise en page générale du site OhMyFood*/
 * {
   /*Personnalisation et mise en page*/
   font-family: "Roboto", sans-serif;
@@ -120,7 +120,7 @@
 /*Fin du code*/
 /*Johan début du code*/
 /**Icon du body de la homepage**/
-/*Contient la mise en page des icons*/
+/*Contient la mise en page des icons OhMyFood*/
 .icon_body {
   padding-right: 25px;
   padding-bottom: 25px;
@@ -141,7 +141,7 @@
 
 /*Fin du code*/
 /*Johan début du code*/
-/***Body du site internet***/
+/***Body du site OhMyFood***/
 /*Contient les éléments de Location*/
 .alignement_location {
   display: flex;
@@ -257,7 +257,7 @@
 
 /*Fin du code*/
 /*Johan début du code*/
-/***Body des menus du site internet***/
+/***Body des menus OhMyFood***/
 /*Contient les éléments des menus*/
 .menu_all {
   border-radius: 30px;
