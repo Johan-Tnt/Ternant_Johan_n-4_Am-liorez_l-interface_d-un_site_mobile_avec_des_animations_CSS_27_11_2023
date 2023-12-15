@@ -17,4 +17,19 @@
 .icon_footer {
   padding-right: 20px;
 }
+
+/*Like de OhMyFood*/
+.fa-heart {
+  border-radius: 50%;
+  padding: 0.2em;
+}
+.fa-heart::before {
+  content: "\f004";
+  font-weight: bold;
+  transition: color 1s ease-out;
+}
+.fa-heart:hover::before {
+  color: $primary-color;
+  cursor: pointer;
+}
 /*Fin du code*/

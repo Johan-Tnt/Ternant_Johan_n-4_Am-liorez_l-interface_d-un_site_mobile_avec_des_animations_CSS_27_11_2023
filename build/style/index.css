@@ -139,6 +139,23 @@
   padding-right: 20px;
 }
 
+/*Like de OhMyFood*/
+.fa-heart {
+  border-radius: 50%;
+  padding: 0.2em;
+}
+
+.fa-heart::before {
+  content: "\f004";
+  font-weight: bold;
+  transition: color 1s ease-out;
+}
+
+.fa-heart:hover::before {
+  color: #9356dc;
+  cursor: pointer;
+}
+
 /*Fin du code*/
 /*Johan début du code*/
 /***Body du site OhMyFood***/
@@ -186,7 +203,7 @@
   justify-content: center;
   color: #f6f6f6;
   font-size: 14px;
-  position: absolute;
+  /*position: absolute;*/
 }
 
 .space_fonctionnement {
@@ -286,6 +303,9 @@
 
 .space_euro {
   font-weight: bold;
+  display: block;
+  text-align: end;
+  padding-right: 15px;
 }
 
 .plate_content {
