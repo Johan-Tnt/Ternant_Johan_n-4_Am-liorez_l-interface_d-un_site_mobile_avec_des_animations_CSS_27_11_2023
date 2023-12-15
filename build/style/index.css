@@ -147,7 +147,7 @@
 
 .fa-heart::before {
   content: "\f004";
-  font-weight: bold;
+  /*font-weight: bold;*/
   transition: color 1s ease-out;
 }
 
