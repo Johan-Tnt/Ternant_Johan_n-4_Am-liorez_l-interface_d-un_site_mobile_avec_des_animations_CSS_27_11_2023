@@ -101,7 +101,6 @@
   border-color: #f6f6f6;
   font-size: 16px;
   border-style: none;
-  padding-top: 20px;
   /*Contient les btn de fonctionnement et les btn des menus*/
 }
 
@@ -168,7 +167,7 @@
   background: #eaeaea;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-top: solid 2px rgba(0, 0, 0, 0.04);
+  border-top: solid 3px rgba(0, 0, 0, 0.08);
   /*Contient le background gris pour la localisation*/
 }
 
