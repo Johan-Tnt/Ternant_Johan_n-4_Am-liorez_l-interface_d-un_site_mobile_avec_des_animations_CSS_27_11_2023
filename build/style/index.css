@@ -318,7 +318,11 @@
 
 .arrow_space {
   margin: 20px;
-  /*padding-right: 30px;*/
+  padding-right: 20px;
+}
+
+.alignement_menu {
+  padding-top: 1px;
 }
 
 /*Fin du code*/
