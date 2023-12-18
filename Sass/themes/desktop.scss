@@ -1,4 +1,14 @@
 /****** Media queries ***********/
 /* Large devices (desktop, 1440px) */
-@media (max-width: 1440px) {
+@media (min-width: 1440px) {
+  .btn_exploration {
+    width: 218px;
+    margin: auto;
+  }
+  .btn_fonctionnement {
+    width: 322px;
+  }
+  .btn_fonctionnement_direction {
+    flex-direction: column;
+  }
 }

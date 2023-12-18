@@ -1,4 +1,11 @@
 /****** Media queries ***********/
 /* Medium devices (tablets, 1024px) */
-@media (max-width: 1024px) {
+@media (min-width: 767.99px) {
+  .btn_exploration {
+    width: 218px;
+    margin: auto;
+  }
+  .btn_fonctionnement {
+    width: 322px;
+  }
 }

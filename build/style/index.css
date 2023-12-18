@@ -66,6 +66,13 @@
   padding-bottom: 25px;
 }
 
+/*Rajout de code Test*/
+/*Pour que les images rester toujours centrée dans un bloc*/
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /*Johan début du code*/
 /**Boutons du body de la homepage**/
 /*Contient les boutons du OhMyFood*/
@@ -328,6 +335,31 @@
 }
 
 /*Fin du code*/
+/****** Media queries ***********/
+/* Large devices (desktop, 1440px) */
+@media (min-width: 1440px) {
+  .btn_exploration {
+    width: 218px;
+    margin: auto;
+  }
+  .btn_fonctionnement {
+    width: 322px;
+  }
+  .btn_fonctionnement_direction {
+    flex-direction: column;
+  }
+}
+/****** Media queries ***********/
+/* Medium devices (tablets, 1024px) */
+@media (min-width: 767.99px) {
+  .btn_exploration {
+    width: 218px;
+    margin: auto;
+  }
+  .btn_fonctionnement {
+    width: 322px;
+  }
+}
 body {
   color: black;
 }
