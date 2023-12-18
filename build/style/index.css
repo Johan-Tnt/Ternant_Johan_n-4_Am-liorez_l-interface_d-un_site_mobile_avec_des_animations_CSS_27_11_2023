@@ -346,7 +346,7 @@ img {
     width: 322px;
   }
   .btn_fonctionnement_direction {
-    flex-direction: column;
+    flex-direction: row;
   }
 }
 /****** Media queries ***********/
@@ -358,6 +358,9 @@ img {
   }
   .btn_fonctionnement {
     width: 322px;
+  }
+  .btn_fonctionnement_direction {
+    flex-direction: row;
   }
 }
 body {
