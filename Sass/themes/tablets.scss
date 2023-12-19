@@ -1,4 +1,6 @@
 /****** Media queries ***********/
+
+/*Media queries de la homepage*/
 /* Medium devices (tablets, 1024px) */
 @media (min-width: 767.99px) {
   /*Header*/
@@ -35,4 +37,9 @@
     display: flex;
     justify-content: flex-end;
   }
+}
+
+/*Media queries des pages menus*/
+.menus_contenu {
+  align-items: center;
 }

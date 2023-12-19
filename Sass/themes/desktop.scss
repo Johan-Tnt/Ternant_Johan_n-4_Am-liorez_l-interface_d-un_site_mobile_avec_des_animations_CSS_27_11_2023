@@ -1,4 +1,6 @@
 /****** Media queries ***********/
+
+/*Media queries de la homepage*/
 /* Large devices (desktop, 1440px) */
 @media (min-width: 1440px) {
   /*Header*/
@@ -35,4 +37,9 @@
     display: flex;
     justify-content: flex-end;
   }
+}
+
+/*Media queries des pages menus*/
+.menus_contenu {
+  align-items: center;
 }
