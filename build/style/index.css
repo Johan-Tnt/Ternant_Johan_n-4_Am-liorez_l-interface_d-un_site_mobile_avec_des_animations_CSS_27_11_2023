@@ -238,9 +238,11 @@ img {
   justify-content: center;
   color: #008766;
   font-size: 14px;
-  margin-left: 270px;
+  /*margin-left: 270px;*/
   position: absolute;
-  margin-top: 30px;
+  /*margin-top: 30px;*/
+  top: 15px;
+  right: 15px;
 }
 
 .alignement_restaurants {
@@ -258,8 +260,10 @@ img {
 }
 
 .bloc_restaurants {
-  padding: 5px;
+  /*padding: 5px;*/
+  padding: 0px 5px;
   padding-bottom: 50px;
+  position: relative;
 }
 
 .card_restaurants {
