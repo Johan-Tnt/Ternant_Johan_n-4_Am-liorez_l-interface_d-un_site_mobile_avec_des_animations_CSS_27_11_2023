@@ -375,16 +375,14 @@ img {
     display: flex;
     justify-content: flex-end;
   }
+  /*Media queries des pages menus*/
+  .menus_contenu {
+    align-items: center;
+  }
+  .menus_dish {
+    width: 634px;
+  }
 }
-/*Media queries des pages menus*/
-.menus_contenu {
-  align-items: center;
-}
-
-.menus_dish {
-  width: 634px;
-}
-
 /****** Media queries ***********/
 /*Media queries de la homepage*/
 /* Medium devices (tablets, 1024px) */
@@ -421,16 +419,14 @@ img {
     display: flex;
     justify-content: flex-end;
   }
+  /*Media queries des pages menus*/
+  .menus_contenu {
+    align-items: center;
+  }
+  .menus_dish {
+    width: 634px;
+  }
 }
-/*Media queries des pages menus*/
-.menus_contenu {
-  align-items: center;
-}
-
-.menus_dish {
-  width: 634px;
-}
-
 body {
   color: black;
 }
