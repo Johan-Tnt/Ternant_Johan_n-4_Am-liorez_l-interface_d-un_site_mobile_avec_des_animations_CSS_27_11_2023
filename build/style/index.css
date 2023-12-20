@@ -148,36 +148,35 @@ img {
 }
 
 /*Like de OhMyFood*/
-.fa-heart {
+/*.fa-heart {
   border-radius: 50%;
   padding: 0.2em;
 }
-
 .fa-heart::before {
   content: "\f004";
   /*font-weight: bold;*/
+/*transition: color 1s ease-out;*/
+/*}
+.fa-heart:hover::before {
+  color: $primary-color;
+  cursor: pointer;
+}*/
+svg > path {
+  fill: none;
+  stroke: black;
+}
+
+svg:hover > path {
+  fill: url("#paint0_linear");
+  cursor: pointer;
   transition: color 1s ease-out;
 }
 
-.fa-heart:hover::before {
-  color: #9356dc;
-  cursor: pointer;
+button {
+  background: transparent;
+  border: none;
 }
 
-/*
-svg  > path{ 
-  fill: none; 
-  stroke:black;
-
-}
-svg:hover > path{
-  fill: url("#button_gradient");  
-}
-
-button{
-  background:transparent;
-  border:none;
-}*/
 /*Fin du code*/
 /*Johan début du code*/
 /***Body du site OhMyFood***/
@@ -188,8 +187,7 @@ button{
   background: #eaeaea;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-top: solid 3px rgba(0, 0, 0, 0.08);
-  box-shadow: 0px 0px 2px 1px rgb(56, 56, 56);
+  box-shadow: 0px 0px 2px 1px rgb(165, 165, 165);
   /*Contient le background gris pour la localisation*/
 }
 
@@ -382,8 +380,19 @@ button{
   .btn_fonctionnement_direction {
     flex-direction: row;
   }
+  .bloc_restaurants {
+    display: grid;
+    grid-template-columns: 200px 810px;
+    justify-content: space-between;
+  }
   .card_restaurants {
     width: 490px;
+  }
+  .dish_title {
+    font-size: 18px;
+  }
+  .dish_content {
+    font-size: 17px;
   }
   /*Footer*/
   .footer {
@@ -391,7 +400,7 @@ button{
     justify-content: flex-end;
   }
   /*Media queries des pages menus*/
-  .menus_contenu {
+  .menus_content {
     align-items: center;
   }
   .menus_dish {
@@ -426,8 +435,19 @@ button{
   .btn_fonctionnement_direction {
     flex-direction: row;
   }
+  .bloc_restaurants {
+    display: grid;
+    grid-template-columns: 200px 810px;
+    justify-content: space-between;
+  }
   .card_restaurants {
     width: 490px;
+  }
+  .dish_title {
+    font-size: 18px;
+  }
+  .dish_content {
+    font-size: 17px;
   }
   /*Footer*/
   .footer {
@@ -435,7 +455,7 @@ button{
     justify-content: flex-end;
   }
   /*Media queries des pages menus*/
-  .menus_contenu {
+  .menus_content {
     align-items: center;
   }
   .menus_dish {

@@ -20,31 +20,32 @@
 }
 
 /*Like de OhMyFood*/
-.fa-heart {
+/*.fa-heart {
   border-radius: 50%;
   padding: 0.2em;
 }
 .fa-heart::before {
   content: "\f004";
   /*font-weight: bold;*/
-  transition: color 1s ease-out;
-}
+/*transition: color 1s ease-out;*/
+/*}
 .fa-heart:hover::before {
   color: $primary-color;
   cursor: pointer;
+}*/
+
+svg > path {
+  fill: none;
+  stroke: black;
 }
-/*
-svg  > path{ 
-  fill: none; 
-  stroke:black;
-  
-}
-svg:hover > path{
-  fill: url("#button_gradient");  
+svg:hover > path {
+  fill: url("#paint0_linear");
+  cursor: pointer;
+  transition: color 1s ease-out;
 }
 
-button{
-  background:transparent;
-  border:none;
-}*/
+button {
+  background: transparent;
+  border: none;
+}
 /*Fin du code*/

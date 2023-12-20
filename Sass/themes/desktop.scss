@@ -28,8 +28,19 @@
   .btn_fonctionnement_direction {
     flex-direction: row;
   }
+  .bloc_restaurants {
+    display: grid;
+    grid-template-columns: 200px 810px;
+    justify-content: space-between;
+  }
   .card_restaurants {
     width: 490px;
+  }
+  .dish_title {
+    font-size: 18px;
+  }
+  .dish_content {
+    font-size: 17px;
   }
 
   /*Footer*/
@@ -39,7 +50,7 @@
   }
 
   /*Media queries des pages menus*/
-  .menus_contenu {
+  .menus_content {
     align-items: center;
   }
   .menus_dish {
