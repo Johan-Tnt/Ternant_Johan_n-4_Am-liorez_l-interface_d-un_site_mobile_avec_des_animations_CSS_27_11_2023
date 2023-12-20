@@ -399,6 +399,16 @@ button {
     display: flex;
     justify-content: flex-end;
   }
+  .space_footer {
+    display: flex;
+  }
+  .order_footer {
+    order: 1;
+  }
+  .ul_alignement {
+    display: flex;
+    gap: 16px;
+  }
   /*Media queries des pages menus*/
   .menus_content {
     align-items: center;
@@ -453,6 +463,17 @@ button {
   .footer {
     display: flex;
     justify-content: flex-end;
+  }
+  .space_footer {
+    display: flex;
+  }
+  .order_footer {
+    order: 1;
+  }
+  .ul_alignement {
+    display: flex;
+    gap: 16px;
+    padding: 30px 25px;
   }
   /*Media queries des pages menus*/
   .menus_content {
