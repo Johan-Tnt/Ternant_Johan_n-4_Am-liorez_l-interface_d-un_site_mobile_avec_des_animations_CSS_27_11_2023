@@ -13,3 +13,7 @@
     @content;
   }
 }
+@mixin min1440() {
+  @media (min-width: 1440px) {
+  }
+}
