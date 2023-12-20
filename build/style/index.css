@@ -274,7 +274,7 @@ button {
 
 .bloc_restaurants {
   /*padding: 5px;*/
-  padding: 0px 5px;
+  padding: 0px 15px;
   padding-bottom: 50px;
   position: relative;
 }
@@ -283,7 +283,7 @@ button {
   background: #fff;
   border-radius: 15px;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
-  height: 250px;
+  height: 251px;
   margin-top: 15px;
 }
 
@@ -378,7 +378,8 @@ button {
     width: 322px;
   }
   .btn_fonctionnement_direction {
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 200px 350px 350px 350px;
   }
   .bloc_restaurants {
     display: grid;
@@ -410,11 +411,17 @@ button {
     gap: 16px;
   }
   /*Media queries des pages menus*/
+  button {
+    padding-left: 20px;
+  }
   .menus_content {
     align-items: center;
   }
   .menus_dish {
     width: 634px;
+  }
+  .btn_fonctionnement_menus {
+    width: 490px;
   }
 }
 /****** Media queries ***********/
@@ -443,7 +450,8 @@ button {
     width: 322px;
   }
   .btn_fonctionnement_direction {
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 200px 350px 350px 350px;
   }
   .bloc_restaurants {
     display: grid;
@@ -476,11 +484,17 @@ button {
     padding: 30px 25px;
   }
   /*Media queries des pages menus*/
+  button {
+    padding-left: 20px;
+  }
   .menus_content {
     align-items: center;
   }
   .menus_dish {
     width: 634px;
+  }
+  .btn_fonctionnement_menus {
+    width: 490px;
   }
 }
 body {
