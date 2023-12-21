@@ -355,14 +355,15 @@ button {
 /****** Media queries ***********/
 /*Media queries de la homepage*/
 /* Large devices (desktop, 1440px) */
-@media (min-width: 1440px) {
+/*@media (min-width: 1440px) {
   /*Header*/
-  .logo_orientation {
+/*.logo_orientation {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+
   /*Main*/
-  .alignement_location {
+/*.alignement_location {
     border-top: none;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -381,12 +382,12 @@ button {
     display: grid;
     grid-template-columns: 200px 350px 350px 350px;
   }
-  .bloc_restaurants {
+  /*.bloc_restaurants {
     display: grid;
     grid-template-columns: 200px 810px;
     justify-content: space-between;
-  }
-  .card_restaurants {
+  }*/
+/*.card_restaurants {
     width: 490px;
   }
   .dish_title {
@@ -395,80 +396,9 @@ button {
   .dish_content {
     font-size: 17px;
   }
+
   /*Footer*/
-  .footer {
-    display: flex;
-    justify-content: flex-end;
-  }
-  .space_footer {
-    display: flex;
-  }
-  .order_footer {
-    order: 1;
-  }
-  .ul_alignement {
-    display: flex;
-    gap: 16px;
-  }
-  /*Media queries des pages menus*/
-  button {
-    padding-left: 20px;
-  }
-  .menus_content {
-    align-items: center;
-  }
-  .menus_dish {
-    width: 634px;
-  }
-  .btn_fonctionnement_menus {
-    width: 490px;
-  }
-}
-/****** Media queries ***********/
-/*Media queries de la homepage*/
-/* Medium devices (tablets, 1024px) */
-@media (min-width: 767.99px) {
-  /*Header*/
-  .logo_orientation {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  /*Main*/
-  .alignement_location {
-    border-top: none;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  .space_reservation {
-    font-size: 40px;
-  }
-  .btn_exploration {
-    width: 218px;
-    margin: auto;
-  }
-  .btn_fonctionnement {
-    width: 322px;
-  }
-  .btn_fonctionnement_direction {
-    display: grid;
-    grid-template-columns: 200px 350px 350px 350px;
-  }
-  .bloc_restaurants {
-    display: grid;
-    grid-template-columns: 200px 810px;
-    justify-content: space-between;
-  }
-  .card_restaurants {
-    width: 490px;
-  }
-  .dish_title {
-    font-size: 18px;
-  }
-  .dish_content {
-    font-size: 17px;
-  }
-  /*Footer*/
-  .footer {
+/*.footer {
     display: flex;
     justify-content: flex-end;
   }
@@ -482,9 +412,10 @@ button {
     display: flex;
     gap: 16px;
     padding: 30px 25px;
+    padding-right: 70px;
   }
   /*Media queries des pages menus*/
-  button {
+/*button {
     padding-left: 20px;
   }
   .menus_content {
@@ -496,7 +427,345 @@ button {
   .btn_fonctionnement_menus {
     width: 490px;
   }
+}*/
+/****** Media queries ***********/
+/*Media queries de la homepage*/
+/* Medium devices (tablets, 1024px) */
+/*@media (min-width: 767.99px) {
+  /*Header*/
+/*.logo_orientation {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  /*Main*/
+/*.alignement_location {
+    border-top: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .space_reservation {
+    font-size: 40px;
+  }
+  .btn_exploration {
+    width: 218px;
+    margin: auto;
+  }
+  .btn_fonctionnement {
+    width: 322px;
+  }
+  .btn_fonctionnement_direction {
+    display: grid;
+    grid-template-columns: 200px 350px 350px 350px;
+  }
+  /*.bloc_restaurants {
+    display: grid;
+    grid-template-columns: 200px 810px;
+    justify-content: space-between;
+  }*/
+/*.card_restaurants {
+    width: 490px;
+  }
+  .dish_title {
+    font-size: 18px;
+  }
+  .dish_content {
+    font-size: 17px;
+  }
+
+  /*Footer*/
+/*.footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .space_footer {
+    display: flex;
+  }
+  .order_footer {
+    order: 1;
+  }
+  .ul_alignement {
+    display: flex;
+    gap: 16px;
+    padding: 30px 25px;
+    padding-right: 70px;
+  }
+  /*Media queries des pages menus*/
+/*button {
+    padding-left: 20px;
+  }
+  .menus_content {
+    align-items: center;
+  }
+  .menus_dish {
+    width: 634px;
+  }
+  .btn_fonctionnement_menus {
+    width: 490px;
+  }
+}*/
+/*Autres Mixins*/
+.btn_fonctionnement {
+  color: red;
 }
+@media (min-width: 768px) {
+  .btn_fonctionnement {
+    color: blue;
+  }
+}
+
+/****** Media queries ***********/
+/*Media queries de la homepage*/
+/* Large devices (desktop, 1440px) */
+/*Header*/
+@media (min-width: 1440px) {
+  .logo_orientation {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+/*Main*/
+@media (min-width: 1440px) {
+  .alignement_location {
+    border-top: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .space_reservation {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .btn_exploration {
+    width: 218px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .btn_fonctionnement {
+    width: 322px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .btn_fonctionnement_direction {
+    display: grid;
+    grid-template-columns: 200px 350px 350px 350px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .bloc_restaurants {
+    display: grid;
+    grid-template-columns: 200px 810px;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1440px) {
+  .card_restaurants {
+    width: 490px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .dish_title {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .dish_content {
+    font-size: 17px;
+  }
+}
+
+/*Footer*/
+@media (min-width: 1440px) {
+  .footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 1440px) {
+  .space_footer {
+    display: flex;
+  }
+}
+
+@media (min-width: 1440px) {
+  .order_footer {
+    order: 1;
+  }
+}
+
+@media (min-width: 1440px) {
+  .ul_alignement {
+    display: flex;
+    gap: 16px;
+    padding: 30px 25px;
+    padding-right: 70px;
+  }
+}
+
+/*Media queries des pages menus*/
+@media (min-width: 1440px) {
+  button {
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .menus_content {
+    align-items: center;
+  }
+}
+
+@media (min-width: 1440px) {
+  .menus_dish {
+    width: 634px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .btn_fonctionnement_menus {
+    width: 490px;
+  }
+}
+
+/****** Media queries ***********/
+/*Media queries de la homepage*/
+/* Medium devices (tablets, 1024px) */
+/*Header*/
+@media (min-width: 768px) {
+  .logo_orientation {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+/*Main*/
+@media (min-width: 768px) {
+  .alignement_location {
+    border-top: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .space_reservation {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn_exploration {
+    width: 218px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn_fonctionnement {
+    width: 322px;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn_fonctionnement_direction {
+    display: grid;
+    grid-template-columns: 200px 350px 350px 350px;
+  }
+}
+
+@media (min-width: 768px) {
+  .bloc_restaurants {
+    display: grid;
+    grid-template-columns: 200px 810px;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 768px) {
+  .card_restaurants {
+    width: 490px;
+  }
+}
+
+@media (min-width: 768px) {
+  .dish_title {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  .dish_content {
+    font-size: 17px;
+  }
+}
+
+/*Footer*/
+@media (min-width: 768px) {
+  .footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 768px) {
+  .space_footer {
+    display: flex;
+  }
+}
+
+@media (min-width: 768px) {
+  .order_footer {
+    order: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .ul_alignement {
+    display: flex;
+    gap: 16px;
+    padding: 30px 25px;
+    padding-right: 70px;
+  }
+}
+
+/*Media queries des pages menus*/
+@media (min-width: 768px) {
+  button {
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .menus_content {
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .menus_dish {
+    width: 634px;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn_fonctionnement_menus {
+    width: 490px;
+  }
+}
+
 body {
   color: black;
 }

@@ -2,15 +2,15 @@
 
 /*Media queries de la homepage*/
 /* Large devices (desktop, 1440px) */
-@media (min-width: 1440px) {
+/*@media (min-width: 1440px) {
   /*Header*/
-  .logo_orientation {
+/*.logo_orientation {
     padding-top: 20px;
     padding-bottom: 20px;
   }
 
   /*Main*/
-  .alignement_location {
+/*.alignement_location {
     border-top: none;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -29,12 +29,12 @@
     display: grid;
     grid-template-columns: 200px 350px 350px 350px;
   }
-  .bloc_restaurants {
+  /*.bloc_restaurants {
     display: grid;
     grid-template-columns: 200px 810px;
     justify-content: space-between;
-  }
-  .card_restaurants {
+  }*/
+/*.card_restaurants {
     width: 490px;
   }
   .dish_title {
@@ -45,7 +45,7 @@
   }
 
   /*Footer*/
-  .footer {
+/*.footer {
     display: flex;
     justify-content: flex-end;
   }
@@ -58,10 +58,11 @@
   .ul_alignement {
     display: flex;
     gap: 16px;
+    padding: 30px 25px;
+    padding-right: 70px;
   }
   /*Media queries des pages menus*/
-
-  button {
+/*button {
     padding-left: 20px;
   }
   .menus_content {
@@ -73,4 +74,4 @@
   .btn_fonctionnement_menus {
     width: 490px;
   }
-}
+}*/

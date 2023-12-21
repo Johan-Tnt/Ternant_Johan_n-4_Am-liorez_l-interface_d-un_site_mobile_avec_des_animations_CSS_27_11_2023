@@ -10,3 +10,4 @@
 @import "./base/normalize.scss";
 @import "./pages/homepage.scss";
 @import "./pages/menu.scss";
+@import "./utils/mixins.scss";
