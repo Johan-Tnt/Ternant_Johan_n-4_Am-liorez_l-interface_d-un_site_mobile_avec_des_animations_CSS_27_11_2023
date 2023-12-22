@@ -213,20 +213,6 @@ button {
 }
 
 /*Contient les éléments de Fonctionnements*/
-.circle_number {
-  border: 1px solid #9356dc;
-  background-color: #9356dc;
-  border-radius: 25px;
-  width: 25px;
-  height: 25px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #f6f6f6;
-  font-size: 14px;
-  position: absolute;
-}
-
 .space_fonctionnement {
   padding-top: 25px;
 }
@@ -241,23 +227,6 @@ button {
 }
 
 /*Contient les éléments de Restaurants*/
-.badge_new {
-  border-radius: 3px;
-  background-color: #99e2d0;
-  width: 80px;
-  height: 29px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #008766;
-  font-size: 14px;
-  /*margin-left: 270px;*/
-  position: absolute;
-  /*margin-top: 30px;*/
-  top: 15px;
-  right: 15px;
-}
-
 .alignement_restaurants {
   padding: 20px;
   padding-top: 50px;
@@ -366,7 +335,7 @@ button {
 /*Main*/
 @media (min-width: 1440px) {
   .alignement_location {
-    border-top: none;
+    box-shadow: none;
     padding-top: 15px;
     padding-bottom: 15px;
   }
@@ -491,7 +460,7 @@ button {
 /*Main*/
 @media (min-width: 768px) {
   .alignement_location {
-    border-top: none;
+    box-shadow: none;
     padding-top: 15px;
     padding-bottom: 15px;
   }
@@ -603,6 +572,40 @@ button {
   }
 }
 
+/*Johan début du code*/
+/*Contient les badges nouveau et les nombres en cercle*/
+.circle_number {
+  border: 1px solid #9356dc;
+  background-color: #9356dc;
+  border-radius: 25px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f6f6f6;
+  font-size: 14px;
+  /*position: absolute;*/
+}
+
+.badge_new {
+  border-radius: 3px;
+  background-color: #99e2d0;
+  width: 80px;
+  height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #008766;
+  font-size: 14px;
+  /*margin-left: 270px;*/
+  position: absolute;
+  /*margin-top: 30px;*/
+  top: 15px;
+  right: 15px;
+}
+
+/*Fin du code*/
 body {
   color: black;
 }

@@ -31,7 +31,7 @@
 /*Main*/
 .alignement_location {
   @include min1440 {
-    border-top: none;
+    box-shadow: none;
     padding-top: 15px;
     padding-bottom: 15px;
   }
@@ -138,7 +138,7 @@ button {
 /*Main*/
 .alignement_location {
   @include min768 {
-    border-top: none;
+    box-shadow: none;
     padding-top: 15px;
     padding-bottom: 15px;
   }
