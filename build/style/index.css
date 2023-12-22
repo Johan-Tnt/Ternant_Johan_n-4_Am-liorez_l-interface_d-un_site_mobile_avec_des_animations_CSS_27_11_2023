@@ -122,6 +122,7 @@ img {
 .btn_menu {
   text-align: start;
   padding-left: 15px;
+  padding-top: 15px;
 }
 
 /*Fin du code*/
@@ -145,37 +146,6 @@ img {
 /*Contient la mise en page des icons*/
 .icon_footer {
   padding-right: 20px;
-}
-
-/*Like de OhMyFood Prototype*/
-/*.fa-heart {
-  border-radius: 50%;
-  padding: 0.2em;
-}
-.fa-heart::before {
-  content: "\f004";
-  /*font-weight: bold;*/
-/*transition: color 1s ease-out;*/
-/*}
-.fa-heart:hover::before {
-  color: $primary-color;
-  cursor: pointer;
-}*/
-/*Like de OhMyFood*/
-svg > path {
-  fill: none;
-  stroke: black;
-}
-
-svg:hover > path {
-  fill: url("#paint0_linear");
-  cursor: pointer;
-  transition: color 1s ease-out;
-}
-
-button {
-  background: transparent;
-  border: none;
 }
 
 /*Fin du code*/
@@ -301,6 +271,8 @@ button {
   display: block;
   text-align: end;
   padding-right: 15px;
+  position: relative;
+  bottom: 20px;
 }
 
 .plate_content {
@@ -608,20 +580,8 @@ button {
 }
 
 /*Fin du code*/
-/*Like de OhMyFood Prototype*/
-/*.fa-heart {
-  border-radius: 50%;
-  padding: 0.2em;
-}
-.fa-heart::before {
-  content: "\f004";
-  /*font-weight: bold;*/
-/*transition: color 1s ease-out;*/
-/*}
-.fa-heart:hover::before {
-  color: $primary-color;
-  cursor: pointer;
-}*/
+/*Johan début du code*/
+/**Fonctions Like**/
 /*Like de OhMyFood*/
 svg > path {
   fill: none;
@@ -639,6 +599,20 @@ button {
   border: none;
 }
 
+/*Like de OhMyFood Prototype*/
+/*.fa-heart {
+  border-radius: 50%;
+  padding: 0.2em;
+}
+.fa-heart::before {
+  content: "\f004";
+  /*font-weight: bold;*/
+/*transition: color 1s ease-out;*/
+/*}
+.fa-heart:hover::before {
+  color: $primary-color;
+  cursor: pointer;
+}*/
 /*Fin du code*/
 body {
   color: black;
