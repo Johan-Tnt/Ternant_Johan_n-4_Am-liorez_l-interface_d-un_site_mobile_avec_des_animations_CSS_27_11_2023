@@ -1,13 +1,12 @@
 /*Johan début du code*/
 
 /*Modules*/
-@import "./style_header.css";
-@import "./style_body.css";
-@import "./style_footer.css";
-@import "./variables.scss";
+@import "./utils/variables.scss";
 @import "./layouts/header.scss";
 @import "./layouts/footer.scss";
 @import "./base/normalize.scss";
+@import "./components/btn.scss";
+@import "./components/icon.scss";
 @import "./pages/homepage.scss";
 @import "./pages/menu.scss";
 @import "./utils/mixins.scss";

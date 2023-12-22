@@ -1,4 +1,4 @@
-/*Autres Mixins*/
+/****** Media queries ***********/
 @mixin min768() {
   @media (min-width: 768px) {
     @content;
@@ -19,15 +19,6 @@
     @content;
   }
 }
-
-.btn_fonctionnement {
-  color: red;
-  @include min768 {
-    color: blue;
-  }
-}
-/****** Media queries ***********/
-
 /*Media queries de la homepage*/
 /* Large devices (desktop, 1440px) */
 /*Header*/
@@ -135,9 +126,6 @@ button {
     width: 490px;
   }
 }
-
-/****** Media queries ***********/
-
 /*Media queries de la homepage*/
 /* Medium devices (tablets, 1024px) */
 /*Header*/
