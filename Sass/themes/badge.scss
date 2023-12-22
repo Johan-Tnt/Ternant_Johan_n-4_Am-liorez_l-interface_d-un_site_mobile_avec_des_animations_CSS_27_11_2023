@@ -11,7 +11,9 @@
   justify-content: center;
   color: $background-grey;
   font-size: 14px;
-  /*position: absolute;*/
+  position: relative;
+  top: 65px;
+  right: 10px;
 }
 .badge_new {
   border-radius: 3px;

@@ -585,7 +585,9 @@ button {
   justify-content: center;
   color: #f6f6f6;
   font-size: 14px;
-  /*position: absolute;*/
+  position: relative;
+  top: 65px;
+  right: 10px;
 }
 
 .badge_new {
