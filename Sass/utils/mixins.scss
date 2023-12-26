@@ -49,7 +49,8 @@
 }
 .btn_fonctionnement {
   @include min1440 {
-    max-width: 322px;
+    /*max-width: 322px;*/
+    width: 322px;
   }
 }
 .btn_fonctionnement_direction {
@@ -158,7 +159,8 @@ button {
 }
 .btn_fonctionnement {
   @include min768 {
-    max-width: 322px;
+    /*max-width: 322px;*/
+    width: 322px;
   }
 }
 .btn_fonctionnement_direction {

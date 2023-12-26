@@ -335,7 +335,8 @@ img {
 
 @media (min-width: 1440px) {
   .btn_fonctionnement {
-    max-width: 322px;
+    /*max-width: 322px;*/
+    width: 322px;
   }
 }
 
@@ -462,7 +463,8 @@ img {
 
 @media (min-width: 768px) {
   .btn_fonctionnement {
-    max-width: 322px;
+    /*max-width: 322px;*/
+    width: 322px;
   }
 }
 
