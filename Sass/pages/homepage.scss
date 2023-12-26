@@ -32,6 +32,7 @@
 /*Contient les éléments de Fonctionnements*/
 .space_fonctionnement {
   padding-top: 25px;
+  grid-column: 1/-1;
 }
 .alignement_fonctionnement {
   flex-direction: column;
@@ -69,6 +70,7 @@
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
   height: 251px;
   margin-top: 15px;
+  position: relative;
 }
 .description_restaurants {
   text-decoration: none;

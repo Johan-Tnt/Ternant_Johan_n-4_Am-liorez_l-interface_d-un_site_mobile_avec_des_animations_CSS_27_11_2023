@@ -40,6 +40,10 @@
 
 .plate_price {
   font-size: 15px;
+  max-width: 100px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .arrow_space {

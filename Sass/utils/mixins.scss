@@ -49,25 +49,27 @@
 }
 .btn_fonctionnement {
   @include min1440 {
-    width: 322px;
+    max-width: 322px;
   }
 }
 .btn_fonctionnement_direction {
   @include min1440 {
     display: grid;
-    grid-template-columns: 200px 350px 350px 350px;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 .bloc_restaurants {
   @include min1440 {
     display: grid;
-    grid-template-columns: 200px 810px;
+    grid-template-columns: 1fr 1fr;
     justify-content: space-between;
+    column-gap: 10px;
   }
 }
 .card_restaurants {
   @include min1440 {
-    width: 490px;
+    max-width: 490px;
+    position: relative;
   }
 }
 .dish_title {
@@ -156,25 +158,27 @@ button {
 }
 .btn_fonctionnement {
   @include min768 {
-    width: 322px;
+    max-width: 322px;
   }
 }
 .btn_fonctionnement_direction {
   @include min768 {
     display: grid;
-    grid-template-columns: 200px 350px 350px 350px;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 .bloc_restaurants {
   @include min768 {
     display: grid;
-    grid-template-columns: 200px 810px;
+    grid-template-columns: 1fr 1fr;
     justify-content: space-between;
+    column-gap: 10px;
   }
 }
 .card_restaurants {
   @include min768 {
-    width: 490px;
+    max-width: 490px;
+    position: relative;
   }
 }
 .dish_title {
