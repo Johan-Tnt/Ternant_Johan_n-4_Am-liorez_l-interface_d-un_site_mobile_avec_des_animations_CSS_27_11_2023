@@ -41,6 +41,9 @@
     font-size: 40px;
   }
 }
+.space_location {
+  margin-right: 450px;
+}
 .btn_exploration {
   @include min1440 {
     width: 218px;
@@ -51,6 +54,11 @@
   @include min1440 {
     /*max-width: 322px;*/
     width: 322px;
+  }
+}
+.btn_fonctionnement_2 {
+  @include min1440 {
+    max-width: 322px;
   }
 }
 .btn_fonctionnement_direction {
@@ -170,6 +178,12 @@ button {
   @include min768 {
     /*max-width: 322px;*/
     width: 322px;
+  }
+}
+.btn_fonctionnement_2 {
+  @include min768 {
+    max-width: 322px;
+    width: auto;
   }
 }
 .btn_fonctionnement_direction {

@@ -326,6 +326,10 @@ img {
   }
 }
 
+.space_location {
+  margin-right: 450px;
+}
+
 @media (min-width: 1440px) {
   .btn_exploration {
     width: 218px;
@@ -337,6 +341,12 @@ img {
   .btn_fonctionnement {
     /*max-width: 322px;*/
     width: 322px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .btn_fonctionnement_2 {
+    max-width: 322px;
   }
 }
 
@@ -475,6 +485,13 @@ img {
   .btn_fonctionnement {
     /*max-width: 322px;*/
     width: 322px;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn_fonctionnement_2 {
+    max-width: 322px;
+    width: auto;
   }
 }
 
