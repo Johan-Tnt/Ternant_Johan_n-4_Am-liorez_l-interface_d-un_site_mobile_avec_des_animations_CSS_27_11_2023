@@ -300,6 +300,16 @@ img {
 }
 
 /*Fin du code*/
+/*@mixin min1080() {
+  @media (min-width: 1080px) {
+    @content;
+  }
+}
+@mixin max1440() {
+  @media (max-width: 1440px) {
+    @content;
+  }
+}*/
 /****** Media queries ***********/
 /*Media queries de la homepage*/
 /* Large devices (desktop, 1440px) */
@@ -338,6 +348,12 @@ img {
 }
 
 @media (min-width: 1440px) {
+  .circle_number {
+    top: 110px;
+  }
+}
+
+@media (min-width: 1440px) {
   .btn_fonctionnement {
     /*max-width: 322px;*/
     width: 322px;
@@ -347,6 +363,13 @@ img {
 @media (min-width: 1440px) {
   .btn_fonctionnement_2 {
     max-width: 322px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .btn_fonctionnement_3 {
+    top: 90px;
+    position: relative;
   }
 }
 
@@ -478,6 +501,12 @@ img {
   .btn_exploration {
     width: 218px;
     margin: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .circle_number {
+    top: 110px;
   }
 }
 

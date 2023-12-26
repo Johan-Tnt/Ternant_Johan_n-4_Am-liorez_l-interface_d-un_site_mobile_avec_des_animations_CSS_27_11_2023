@@ -1,10 +1,4 @@
-/****** Media queries ***********/
-@mixin min768() {
-  @media (min-width: 768px) {
-    @content;
-  }
-}
-@mixin min1080() {
+/*@mixin min1080() {
   @media (min-width: 1080px) {
     @content;
   }
@@ -13,12 +7,19 @@
   @media (max-width: 1440px) {
     @content;
   }
-}
+}*/
 @mixin min1440() {
   @media (min-width: 1440px) {
     @content;
   }
 }
+@mixin min768() {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+/****** Media queries ***********/
+
 /*Media queries de la homepage*/
 /* Large devices (desktop, 1440px) */
 /*Header*/
@@ -50,6 +51,11 @@
     margin: auto;
   }
 }
+.circle_number {
+  @include min1440 {
+    top: 110px;
+  }
+}
 .btn_fonctionnement {
   @include min1440 {
     /*max-width: 322px;*/
@@ -59,6 +65,12 @@
 .btn_fonctionnement_2 {
   @include min1440 {
     max-width: 322px;
+  }
+}
+.btn_fonctionnement_3 {
+  @include min1440 {
+    top: 90px;
+    position: relative;
   }
 }
 .btn_fonctionnement_direction {
@@ -172,6 +184,11 @@ button {
   @include min768 {
     width: 218px;
     margin: auto;
+  }
+}
+.circle_number {
+  @include min768 {
+    top: 110px;
   }
 }
 .btn_fonctionnement {
