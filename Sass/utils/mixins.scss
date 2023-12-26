@@ -57,6 +57,7 @@
   @include min1440 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px 180px;
   }
 }
 .alignement_restaurants {
@@ -175,6 +176,7 @@ button {
   @include min768 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px 180px;
   }
 }
 .alignement_restaurants {
