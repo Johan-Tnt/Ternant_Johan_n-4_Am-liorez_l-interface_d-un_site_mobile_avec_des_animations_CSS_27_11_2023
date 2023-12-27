@@ -367,9 +367,8 @@ img {
 }
 
 @media (min-width: 1440px) {
-  .btn_fonctionnement_3 {
-    top: 90px;
-    position: relative;
+  .space_fonctionnement {
+    padding-top: 1px;
   }
 }
 
@@ -381,6 +380,26 @@ img {
   }
 }
 
+/*Ajout de code pour les btn fonctionnements en desktop*/
+@media (min-width: 1440px) {
+  .btn_order_1 {
+    order: 1;
+  }
+}
+
+@media (min-width: 1440px) {
+  .btn_order_2 {
+    order: 2;
+  }
+}
+
+@media (min-width: 1440px) {
+  .btn_order_3 {
+    order: 3;
+  }
+}
+
+/*Fin de code*/
 @media (min-width: 1440px) {
   .alignement_restaurants {
     padding-left: 180px;
@@ -525,6 +544,12 @@ img {
 }
 
 @media (min-width: 768px) {
+  .space_fonctionnement {
+    padding-top: 1px;
+  }
+}
+
+@media (min-width: 768px) {
   .btn_fonctionnement_direction {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -532,6 +557,26 @@ img {
   }
 }
 
+/*Ajout de code pour les btn fonctionnements en desktop*/
+@media (min-width: 768px) {
+  .btn_order_1 {
+    order: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn_order_2 {
+    order: 2;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn_order_3 {
+    order: 3;
+  }
+}
+
+/*Fin de code*/
 @media (min-width: 768px) {
   .alignement_restaurants {
     padding-left: 180px;

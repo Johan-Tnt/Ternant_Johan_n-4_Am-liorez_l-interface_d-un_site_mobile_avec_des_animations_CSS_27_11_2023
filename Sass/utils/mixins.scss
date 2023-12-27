@@ -67,10 +67,9 @@
     max-width: 322px;
   }
 }
-.btn_fonctionnement_3 {
+.space_fonctionnement {
   @include min1440 {
-    top: 90px;
-    position: relative;
+    padding-top: 1px;
   }
 }
 .btn_fonctionnement_direction {
@@ -80,6 +79,23 @@
     padding: 50px 180px;
   }
 }
+/*Ajout de code pour les btn fonctionnements en desktop*/
+.btn_order_1 {
+  @include min1440 {
+    order: 1;
+  }
+}
+.btn_order_2 {
+  @include min1440 {
+    order: 2;
+  }
+}
+.btn_order_3 {
+  @include min1440 {
+    order: 3;
+  }
+}
+/*Fin de code*/
 .alignement_restaurants {
   @include min1440 {
     padding-left: 180px;
@@ -203,6 +219,11 @@ button {
     width: auto;
   }
 }
+.space_fonctionnement {
+  @include min768 {
+    padding-top: 1px;
+  }
+}
 .btn_fonctionnement_direction {
   @include min768 {
     display: grid;
@@ -210,6 +231,23 @@ button {
     padding: 50px 180px;
   }
 }
+/*Ajout de code pour les btn fonctionnements en desktop*/
+.btn_order_1 {
+  @include min768 {
+    order: 1;
+  }
+}
+.btn_order_2 {
+  @include min768 {
+    order: 2;
+  }
+}
+.btn_order_3 {
+  @include min768 {
+    order: 3;
+  }
+}
+/*Fin de code*/
 .alignement_restaurants {
   @include min768 {
     padding-left: 180px;
