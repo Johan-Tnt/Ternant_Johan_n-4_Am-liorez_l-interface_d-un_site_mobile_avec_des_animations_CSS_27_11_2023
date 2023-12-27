@@ -420,7 +420,7 @@ img {
 
 @media (min-width: 1440px) {
   .card_restaurants {
-    max-width: 490px;
+    /*max-width: 490px;*/
     position: relative;
   }
 }
@@ -531,7 +531,7 @@ img {
 
 @media (min-width: 768px) {
   .btn_fonctionnement {
-    /*max-width: 322px;*/
+    max-width: 322px;
     width: 322px;
   }
 }
@@ -539,6 +539,7 @@ img {
 @media (min-width: 768px) {
   .btn_fonctionnement_2 {
     max-width: 322px;
+    max-width: 100%;
     width: auto;
   }
 }
@@ -597,7 +598,7 @@ img {
 
 @media (min-width: 768px) {
   .card_restaurants {
-    max-width: 490px;
+    /* max-width: 490px;*/
     position: relative;
   }
 }

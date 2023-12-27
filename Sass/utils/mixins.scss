@@ -114,7 +114,7 @@
 }
 .card_restaurants {
   @include min1440 {
-    max-width: 490px;
+    /*max-width: 490px;*/
     position: relative;
   }
 }
@@ -209,13 +209,14 @@ button {
 }
 .btn_fonctionnement {
   @include min768 {
-    /*max-width: 322px;*/
+    max-width: 322px;
     width: 322px;
   }
 }
 .btn_fonctionnement_2 {
   @include min768 {
     max-width: 322px;
+    max-width: 100%;
     width: auto;
   }
 }
@@ -266,7 +267,7 @@ button {
 }
 .card_restaurants {
   @include min768 {
-    max-width: 490px;
+    /* max-width: 490px;*/
     position: relative;
   }
 }
