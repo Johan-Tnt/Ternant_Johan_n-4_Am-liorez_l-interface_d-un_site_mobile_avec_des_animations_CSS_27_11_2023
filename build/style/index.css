@@ -531,16 +531,16 @@ img {
 
 @media (min-width: 768px) {
   .btn_fonctionnement {
-    max-width: 322px;
+    /*max-width: 322px;*/
     width: 322px;
   }
 }
 
 @media (min-width: 768px) {
   .btn_fonctionnement_2 {
-    max-width: 322px;
-    max-width: 100%;
+    max-width: 95%;
     width: auto;
+    height: auto;
   }
 }
 

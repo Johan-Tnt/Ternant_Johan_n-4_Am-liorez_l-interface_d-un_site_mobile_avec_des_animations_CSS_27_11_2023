@@ -209,15 +209,15 @@ button {
 }
 .btn_fonctionnement {
   @include min768 {
-    max-width: 322px;
+    /*max-width: 322px;*/
     width: 322px;
   }
 }
 .btn_fonctionnement_2 {
   @include min768 {
-    max-width: 322px;
-    max-width: 100%;
+    max-width: 95%;
     width: auto;
+    height: auto;
   }
 }
 .space_fonctionnement {
