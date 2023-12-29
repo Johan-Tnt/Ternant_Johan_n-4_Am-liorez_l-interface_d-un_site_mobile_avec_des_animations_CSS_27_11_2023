@@ -117,6 +117,12 @@ img {
   /*Contient la mise en page des btn fonctionnements*/
 }
 
+.btn_like {
+  bottom: 30px;
+  position: relative;
+  margin-left: 260px;
+}
+
 /**Boutons du body des menus**/
 /*Contient les boutons du site internet*/
 .btn_menu {
@@ -300,13 +306,8 @@ img {
 }
 
 /*Fin du code*/
-/*@mixin min1080() {
-  @media (min-width: 1080px) {
-    @content;
-  }
-}
-@mixin max1440() {
-  @media (max-width: 1440px) {
+/*@mixin min1440() {
+  @media (min-width: 1440px) {
     @content;
   }
 }*/
@@ -314,100 +315,118 @@ img {
 /*Media queries de la homepage*/
 /* Large devices (desktop, 1440px) */
 /*Header*/
-@media (min-width: 1440px) {
-  .logo_orientation {
+/*Main*/
+@media (max-width: 1440px) {
+  .btn_like {
+    margin-left: 250px;
+  }
+}
+
+/*Footer*/
+/*Media queries de la homepage*/
+/* Large devices (desktop, 1440px) */
+/*Header*/
+/*.logo_orientation {
+  @include min1440 {
     padding-top: 20px;
     padding-bottom: 20px;
   }
 }
-
+/*Test orientation flèche et logo*/
+/*.arrow_space {
+  @include min1440 {
+    position: relative;
+    right: 250px;
+    padding-right: 1px;
+  }
+}
+.logo_position {
+  @include min1440 {
+    position: relative;
+    right: 30px;
+    left: 1px;
+  }
+}
+/*Fin du test*/
 /*Main*/
-@media (min-width: 1440px) {
-  .alignement_location {
+/*.alignement_location {
+  @include min1440 {
     box-shadow: none;
     padding-top: 15px;
     padding-bottom: 15px;
   }
 }
-
-@media (min-width: 1440px) {
-  .space_reservation {
+.space_reservation {
+  @include min1440 {
     font-size: 40px;
   }
 }
-
 .space_location_2 {
   margin-right: 450px;
 }
-
-@media (min-width: 1440px) {
-  .btn_exploration {
+.btn_exploration {
+  @include min1440 {
     width: 218px;
     margin: auto;
   }
 }
-
-@media (min-width: 1440px) {
-  .circle_number {
+.circle_number {
+  @include min1440 {
     top: 110px;
   }
 }
-
-@media (min-width: 1440px) {
-  .btn_fonctionnement {
+.btn_fonctionnement {
+  @include min1440 {
     /*max-width: 322px;*/
-    width: 322px;
-  }
+/*width: 322px;
 }
-
-@media (min-width: 1440px) {
-  .btn_fonctionnement_2 {
+}*/
+/*.btn_fonctionnement_2 {
+  @include min1440 {
     max-width: 322px;
   }
 }
-
-@media (min-width: 1440px) {
-  .space_fonctionnement {
+.space_fonctionnement {
+  @include min1440 {
     padding-top: 1px;
   }
 }
-
-@media (min-width: 1440px) {
-  .btn_fonctionnement_direction {
+.btn_fonctionnement_direction {
+  @include min1440 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 50px 180px;
   }
 }
-
 /*Ajout de code pour les btn fonctionnements en desktop*/
-@media (min-width: 1440px) {
-  .btn_order_1 {
+/*.btn_order_1 {
+  @include min1440 {
     order: 1;
   }
 }
-
-@media (min-width: 1440px) {
-  .btn_order_2 {
+.btn_order_2 {
+  @include min1440 {
     order: 2;
   }
 }
-
-@media (min-width: 1440px) {
-  .btn_order_3 {
+.btn_order_3 {
+  @include min1440 {
     order: 3;
   }
 }
-
 /*Fin de code*/
-@media (min-width: 1440px) {
-  .alignement_restaurants {
+/*.btn_like {
+  @include min1440 {
+    margin-left: 150px;
+  }
+}
+.alignement_restaurants {
+  @include min1440 {
     padding-left: 180px;
   }
 }
-
-@media (min-width: 1440px) {
-  .bloc_restaurants {
+.bloc_restaurants {
+  @include min1440 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
@@ -417,76 +436,65 @@ img {
     padding-bottom: 30px;
   }
 }
-
-@media (min-width: 1440px) {
-  .card_restaurants {
+.card_restaurants {
+  @include min1440 {
     /*max-width: 490px;*/
-    position: relative;
+/*position: relative;
   }
-}
-
-@media (min-width: 1440px) {
-  .dish_title {
+}*/
+/*.dish_title {
+  @include min1440 {
     font-size: 18px;
   }
 }
-
-@media (min-width: 1440px) {
-  .dish_content {
+.dish_content {
+  @include min1440 {
     font-size: 17px;
   }
 }
-
 /*Footer*/
-@media (min-width: 1440px) {
-  .footer {
+/*.footer {
+  @include min1440 {
     display: flex;
     justify-content: flex-end;
   }
 }
-
-@media (min-width: 1440px) {
-  .space_footer {
+.space_footer {
+  @include min1440 {
     display: flex;
   }
 }
-
-@media (min-width: 1440px) {
-  .order_footer {
+.order_footer {
+  @include min1440 {
     order: 1;
   }
 }
-
-@media (min-width: 1440px) {
-  .ul_alignement {
+.ul_alignement {
+  @include min1440 {
     display: flex;
     gap: 16px;
     padding: 30px 25px;
     padding-right: 70px;
   }
 }
-
 /*Media queries des pages menus*/
-@media (min-width: 1440px) {
-  button {
+/*button {
+  @include min1440 {
     padding-left: 20px;
   }
 }
-
-@media (min-width: 1440px) {
-  .menus_content {
+.menus_content {
+  @include min1440 {
     align-items: center;
   }
 }
-
-@media (min-width: 1440px) {
-  .menus_dish {
+.menus_dish {
+  @include min1440 {
     width: 634px;
   }
 }
-
-@media (min-width: 1440px) {
-  .btn_fonctionnement_menus {
+.btn_fonctionnement_menus {
+  @include min1440 {
     width: 490px;
   }
 }
@@ -501,6 +509,24 @@ img {
   }
 }
 
+/*Test orientation flèche et logo*/
+@media (min-width: 768px) {
+  .arrow_space {
+    position: relative;
+    right: 230px;
+    padding-right: 1px;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo_position {
+    position: relative;
+    right: 30px;
+    left: 1px;
+  }
+}
+
+/*Fin du test*/
 /*Main*/
 @media (min-width: 768px) {
   .alignement_location {
@@ -578,6 +604,12 @@ img {
 }
 
 /*Fin de code*/
+@media (min-width: 768px) {
+  .btn_like {
+    margin-left: 150px;
+  }
+}
+
 @media (min-width: 768px) {
   .alignement_restaurants {
     padding-left: 180px;
@@ -667,6 +699,15 @@ img {
   .btn_fonctionnement_menus {
     width: 490px;
   }
+}
+
+/*Test btn like coeur*/
+.element_style {
+  /* left: 450px; */
+  position: relative;
+  display: flex;
+  bottom: 20px;
+  padding-left: 450px;
 }
 
 /*Johan début du code*/
