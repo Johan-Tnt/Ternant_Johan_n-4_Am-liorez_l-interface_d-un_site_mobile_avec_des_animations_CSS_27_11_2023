@@ -118,8 +118,8 @@ img {
 
 .btn_like {
   bottom: 30px;
-  position: relative;
-  margin-left: 260px;
+  position: absolute;
+  right: 20px;
 }
 
 /**Boutons du body des menus**/
@@ -128,6 +128,13 @@ img {
   text-align: start;
   padding-left: 15px;
   padding-top: 15px;
+}
+
+.btn_like_menu {
+  /* right: 10px; */
+  position: relative;
+  /* top: 390px; */
+  left: 30px;
 }
 
 /*Fin du code*/
@@ -307,17 +314,16 @@ img {
 }
 
 /*Fin du code*/
+/*@mixin min1440() {
+  @media (min-width: 1440px) {
+    @content;
+  }
+}*/
 /****** Media queries ***********/
 /*Media queries de la homepage*/
 /* Large devices (desktop, 1440px) */
 /*Header*/
 /*Main*/
-@media (max-width: 1440px) {
-  .btn_like {
-    margin-left: 90%;
-  }
-}
-
 /*Footer*/
 /*Media queries de la homepage*/
 /* Large devices (desktop, 1440px) */
@@ -601,8 +607,7 @@ img {
 /*Fin de code*/
 @media (min-width: 768px) {
   .btn_like {
-    /*margin-left: 150px;*/
-    margin-left: 75%;
+    bottom: 15px;
   }
 }
 
@@ -701,15 +706,6 @@ img {
   .titles_menu_dish {
     margin-right: 450px;
   }
-}
-
-/*Test btn like coeur*/
-.element_style {
-  /* left: 450px; */
-  position: relative;
-  display: flex;
-  bottom: 20px;
-  padding-left: 450px;
 }
 
 /*Johan début du code*/

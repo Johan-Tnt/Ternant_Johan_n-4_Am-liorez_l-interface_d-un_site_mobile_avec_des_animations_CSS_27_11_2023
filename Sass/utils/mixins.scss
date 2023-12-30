@@ -8,11 +8,11 @@
     @content;
   }
 }
-@mixin min1440() {
+/*@mixin min1440() {
   @media (min-width: 1440px) {
     @content;
   }
-}
+}*/
 @mixin min768() {
   @media (min-width: 768px) {
     @content;
@@ -23,11 +23,6 @@
 /* Large devices (desktop, 1440px) */
 /*Header*/
 /*Main*/
-.btn_like {
-  @include max1440 {
-    margin-left: 90%;
-  }
-}
 /*Footer*/
 
 /*Media queries de la homepage*/
@@ -298,8 +293,7 @@
 /*Fin de code*/
 .btn_like {
   @include min768 {
-    /*margin-left: 150px;*/
-    margin-left: 75%;
+    bottom: 15px;
   }
 }
 .alignement_restaurants {
@@ -384,12 +378,4 @@ button {
   @include min768 {
     margin-right: 450px;
   }
-}
-/*Test btn like coeur*/
-.element_style {
-  /* left: 450px; */
-  position: relative;
-  display: flex;
-  bottom: 20px;
-  padding-left: 450px;
 }
