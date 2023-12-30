@@ -23,9 +23,9 @@
 /* Large devices (desktop, 1440px) */
 /*Header*/
 /*Main*/
-/*.btn_like {
+.btn_like {
   @include max1440 {
-    margin-left: 250px;
+    margin-left: 90%;
   }
 }
 /*Footer*/
@@ -215,9 +215,11 @@
 /*Test orientation flèche et logo*/
 .arrow_space {
   @include min768 {
-    position: relative;
-    right: 230px;
-    padding-right: 1px;
+    /*position: relative;*/
+    /*right: 230px;*/
+    /*padding-right: 1px;*/
+    position: absolute;
+    left: 5px;
   }
 }
 .logo_position {
@@ -260,7 +262,7 @@
 }
 .btn_fonctionnement_2 {
   @include min768 {
-    max-width: 95%;
+    /*max-width: 100%;*/
     width: auto;
     height: auto;
   }
@@ -296,7 +298,8 @@
 /*Fin de code*/
 .btn_like {
   @include min768 {
-    margin-left: 150px;
+    /*margin-left: 150px;*/
+    margin-left: 75%;
   }
 }
 .alignement_restaurants {

@@ -311,11 +311,12 @@ img {
 /* Large devices (desktop, 1440px) */
 /*Header*/
 /*Main*/
-/*.btn_like {
-  @include max1440 {
-    margin-left: 250px;
+@media (max-width: 1440px) {
+  .btn_like {
+    margin-left: 90%;
   }
 }
+
 /*Footer*/
 /*Media queries de la homepage*/
 /* Large devices (desktop, 1440px) */
@@ -503,9 +504,11 @@ img {
 /*Test orientation flèche et logo*/
 @media (min-width: 768px) {
   .arrow_space {
-    position: relative;
-    right: 230px;
-    padding-right: 1px;
+    /*position: relative;*/
+    /*right: 230px;*/
+    /*padding-right: 1px;*/
+    position: absolute;
+    left: 5px;
   }
 }
 
@@ -555,7 +558,7 @@ img {
 
 @media (min-width: 768px) {
   .btn_fonctionnement_2 {
-    max-width: 95%;
+    /*max-width: 100%;*/
     width: auto;
     height: auto;
   }
@@ -597,7 +600,8 @@ img {
 /*Fin de code*/
 @media (min-width: 768px) {
   .btn_like {
-    margin-left: 150px;
+    /*margin-left: 150px;*/
+    margin-left: 75%;
   }
 }
 
@@ -762,20 +766,6 @@ button {
   border: none;
 }
 
-/*Like de OhMyFood Prototype*/
-/*.fa-heart {
-  border-radius: 50%;
-  padding: 0.2em;
-}
-.fa-heart::before {
-  content: "\f004";
-  /*font-weight: bold;*/
-/*transition: color 1s ease-out;*/
-/*}
-.fa-heart:hover::before {
-  color: $primary-color;
-  cursor: pointer;
-}*/
 /*Fin du code*/
 body {
   color: black;
