@@ -18,10 +18,9 @@
 }
 
 /*Logo OhMyFood pour la Homepage*/
-.logo_menu {
+/*.logo_menu {
   margin-right: 80px;
-}
-
+}*/
 /*Logo pour les pages menu*/
 /*Fin du code*/
 /*Johan début du code*/
@@ -297,8 +296,10 @@ img {
 
 .arrow_space {
   margin: 20px;
-  padding-right: 20px;
+  /* padding-right: 20px;*/
   font-size: 20px;
+  position: absolute;
+  left: 5px;
 }
 
 .alignement_menu {
