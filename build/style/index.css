@@ -306,22 +306,16 @@ img {
 }
 
 /*Fin du code*/
-/*@mixin min1440() {
-  @media (min-width: 1440px) {
-    @content;
-  }
-}*/
 /****** Media queries ***********/
 /*Media queries de la homepage*/
 /* Large devices (desktop, 1440px) */
 /*Header*/
 /*Main*/
-@media (max-width: 1440px) {
-  .btn_like {
+/*.btn_like {
+  @include max1440 {
     margin-left: 250px;
   }
 }
-
 /*Footer*/
 /*Media queries de la homepage*/
 /* Large devices (desktop, 1440px) */
@@ -361,9 +355,6 @@ img {
     font-size: 40px;
   }
 }
-.space_location_2 {
-  margin-right: 450px;
-}
 .btn_exploration {
   @include min1440 {
     width: 218px;
@@ -378,10 +369,10 @@ img {
 .btn_fonctionnement {
   @include min1440 {
     /*max-width: 322px;*/
-/*width: 322px;
+/* width: 322px;
+  }
 }
-}*/
-/*.btn_fonctionnement_2 {
+.btn_fonctionnement_2 {
   @include min1440 {
     max-width: 322px;
   }
@@ -441,8 +432,8 @@ img {
     /*max-width: 490px;*/
 /*position: relative;
   }
-}*/
-/*.dish_title {
+}
+.dish_title {
   @include min1440 {
     font-size: 18px;
   }
@@ -698,6 +689,12 @@ img {
 @media (min-width: 768px) {
   .btn_fonctionnement_menus {
     width: 490px;
+  }
+}
+
+@media (min-width: 768px) {
+  .titles_menu_dish {
+    margin-right: 450px;
   }
 }
 
