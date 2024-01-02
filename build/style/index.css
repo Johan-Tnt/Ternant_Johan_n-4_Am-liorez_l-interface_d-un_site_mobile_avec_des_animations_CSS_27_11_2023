@@ -258,6 +258,30 @@ img {
   padding-top: 5px;
 }
 
+/*Background grey au dessus de l'image*/
+.main_background {
+  display: grid;
+  grid-template-rows: 200px 75px auto auto auto;
+  grid-template-columns: auto;
+}
+
+.img_background {
+  grid-row: 1/3;
+  grid-column: 1/-1;
+}
+
+.restaurants_background {
+  grid-row: 2/4;
+  grid-column: 1/-1;
+  border-radius: 50px;
+  border-bottom-left-radius: initial;
+  border-bottom-right-radius: initial;
+}
+
+.btn_command {
+  grid-column: 1/-1;
+}
+
 /*Fin du code*/
 /*Johan début du code*/
 /***Body des menus OhMyFood***/
@@ -331,7 +355,7 @@ img {
   }
 }*/
 /*Media queries de la homepage*/
-/* Medium devices (tablets, 1024px) */
+/* Large devices/Medium devices (desktop, tablets) */
 /*Header*/
 @media (min-width: 768px) {
   .logo_orientation {
@@ -539,6 +563,12 @@ img {
   }
 }
 
+/*Test background grey au dessus de l'image*/
+.main_background {
+  grid-template-rows: 200px 40px auto auto auto;
+}
+
+/*Fin du code*/
 /*Johan début du code*/
 /*Contient les badges nouveau et les nombres en cercle*/
 .circle_number {
@@ -587,7 +617,6 @@ svg:hover > path {
   fill: url("#paint0_linear");
   cursor: pointer;
   transition: color 1s ease-out;
-  outline: none;
 }
 
 button {
