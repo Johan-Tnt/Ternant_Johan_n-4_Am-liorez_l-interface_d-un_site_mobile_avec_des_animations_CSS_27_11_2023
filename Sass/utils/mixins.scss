@@ -195,6 +195,8 @@ button {
 }
 /*Test background grey au dessus de l'image*/
 .main_background {
-  grid-template-rows: 200px 40px auto auto auto;
+  @include min768 {
+    grid-template-rows: 200px 40px auto auto auto;
+  }
 }
 /*Fin du code*/
