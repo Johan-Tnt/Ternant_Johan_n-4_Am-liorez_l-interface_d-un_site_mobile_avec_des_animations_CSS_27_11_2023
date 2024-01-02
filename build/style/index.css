@@ -17,10 +17,6 @@
   margin-top: 14px;
 }
 
-/*Logo OhMyFood pour la Homepage*/
-/*.logo_menu {
-  margin-right: 80px;
-}*/
 /*Logo pour les pages menu*/
 /*Fin du code*/
 /*Johan début du code*/
@@ -131,9 +127,7 @@ img {
 }
 
 .btn_like_menu {
-  /* right: 10px; */
   position: relative;
-  /* top: 390px; */
   left: 30px;
 }
 
@@ -147,6 +141,14 @@ img {
   font-size: 18px;
 }
 
+.icon_body_2 {
+  padding-right: 40px;
+}
+
+.icon_body_3 {
+  padding-right: 30px;
+}
+
 /**Icon du body des menus**/
 /*Contient la mise en page des icons*/
 .menu_like {
@@ -157,7 +159,13 @@ img {
 /**Icon du footer*/
 /*Contient la mise en page des icons*/
 .icon_footer {
-  padding-right: 20px;
+  padding-right: 15px;
+  font-size: 12px;
+}
+
+.icon_footer_2 {
+  padding-right: 10px;
+  font-size: 12px;
 }
 
 /*Fin du code*/
@@ -226,9 +234,8 @@ img {
 }
 
 .bloc_restaurants {
-  /*padding: 5px;*/
   padding: 0px 15px;
-  padding-bottom: 50px;
+  padding-bottom: 70px;
   position: relative;
 }
 
@@ -303,7 +310,6 @@ img {
 
 .arrow_space {
   margin: 20px;
-  /* padding-right: 20px;*/
   font-size: 20px;
   position: absolute;
   left: 5px;
@@ -314,190 +320,16 @@ img {
 }
 
 /*Fin du code*/
-/*@mixin min1440() {
-  @media (min-width: 1440px) {
+/*@mixin max1440() {
+  @media (max-width: 1440px) {
     @content;
   }
 }*/
-/****** Media queries ***********/
-/*Media queries de la homepage*/
-/* Large devices (desktop, 1440px) */
-/*Header*/
-/*Main*/
-/*Footer*/
-/*Media queries de la homepage*/
-/* Large devices (desktop, 1440px) */
-/*Header*/
-/*.logo_orientation {
-  @include min1440 {
-    padding-top: 20px;
-    padding-bottom: 20px;
+/*@mixin min1080() {
+  @media (min-width: 1080px) {
+    @content;
   }
-}
-/*Test orientation flèche et logo*/
-/*.arrow_space {
-  @include min1440 {
-    position: relative;
-    right: 250px;
-    padding-right: 1px;
-  }
-}
-.logo_position {
-  @include min1440 {
-    position: relative;
-    right: 30px;
-    left: 1px;
-  }
-}
-/*Fin du test*/
-/*Main*/
-/*.alignement_location {
-  @include min1440 {
-    box-shadow: none;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-}
-.space_reservation {
-  @include min1440 {
-    font-size: 40px;
-  }
-}
-.btn_exploration {
-  @include min1440 {
-    width: 218px;
-    margin: auto;
-  }
-}
-.circle_number {
-  @include min1440 {
-    top: 110px;
-  }
-}
-.btn_fonctionnement {
-  @include min1440 {
-    /*max-width: 322px;*/
-/* width: 322px;
-  }
-}
-.btn_fonctionnement_2 {
-  @include min1440 {
-    max-width: 322px;
-  }
-}
-.space_fonctionnement {
-  @include min1440 {
-    padding-top: 1px;
-  }
-}
-.btn_fonctionnement_direction {
-  @include min1440 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 50px 180px;
-  }
-}
-/*Ajout de code pour les btn fonctionnements en desktop*/
-/*.btn_order_1 {
-  @include min1440 {
-    order: 1;
-  }
-}
-.btn_order_2 {
-  @include min1440 {
-    order: 2;
-  }
-}
-.btn_order_3 {
-  @include min1440 {
-    order: 3;
-  }
-}
-/*Fin de code*/
-/*.btn_like {
-  @include min1440 {
-    margin-left: 150px;
-  }
-}
-.alignement_restaurants {
-  @include min1440 {
-    padding-left: 180px;
-  }
-}
-.bloc_restaurants {
-  @include min1440 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
-    column-gap: 10px;
-    padding: 0px 180px;
-    gap: 50px;
-    padding-bottom: 30px;
-  }
-}
-.card_restaurants {
-  @include min1440 {
-    /*max-width: 490px;*/
-/*position: relative;
-  }
-}
-.dish_title {
-  @include min1440 {
-    font-size: 18px;
-  }
-}
-.dish_content {
-  @include min1440 {
-    font-size: 17px;
-  }
-}
-/*Footer*/
-/*.footer {
-  @include min1440 {
-    display: flex;
-    justify-content: flex-end;
-  }
-}
-.space_footer {
-  @include min1440 {
-    display: flex;
-  }
-}
-.order_footer {
-  @include min1440 {
-    order: 1;
-  }
-}
-.ul_alignement {
-  @include min1440 {
-    display: flex;
-    gap: 16px;
-    padding: 30px 25px;
-    padding-right: 70px;
-  }
-}
-/*Media queries des pages menus*/
-/*button {
-  @include min1440 {
-    padding-left: 20px;
-  }
-}
-.menus_content {
-  @include min1440 {
-    align-items: center;
-  }
-}
-.menus_dish {
-  @include min1440 {
-    width: 634px;
-  }
-}
-.btn_fonctionnement_menus {
-  @include min1440 {
-    width: 490px;
-  }
-}
-
+}*/
 /*Media queries de la homepage*/
 /* Medium devices (tablets, 1024px) */
 /*Header*/
@@ -508,12 +340,9 @@ img {
   }
 }
 
-/*Test orientation flèche et logo*/
+/*Orientation flèche et logo*/
 @media (min-width: 768px) {
   .arrow_space {
-    /*position: relative;*/
-    /*right: 230px;*/
-    /*padding-right: 1px;*/
     position: absolute;
     left: 5px;
   }
@@ -527,7 +356,6 @@ img {
   }
 }
 
-/*Fin du test*/
 /*Main*/
 @media (min-width: 768px) {
   .alignement_location {
@@ -558,14 +386,12 @@ img {
 
 @media (min-width: 768px) {
   .btn_fonctionnement {
-    /*max-width: 322px;*/
     width: 322px;
   }
 }
 
 @media (min-width: 768px) {
   .btn_fonctionnement_2 {
-    /*max-width: 100%;*/
     width: auto;
     height: auto;
   }
@@ -607,7 +433,7 @@ img {
 /*Fin de code*/
 @media (min-width: 768px) {
   .btn_like {
-    bottom: 15px;
+    bottom: 20px;
   }
 }
 
@@ -631,7 +457,6 @@ img {
 
 @media (min-width: 768px) {
   .card_restaurants {
-    /* max-width: 490px;*/
     position: relative;
   }
 }
@@ -708,6 +533,12 @@ img {
   }
 }
 
+@media (min-width: 768px) {
+  .btn_like_menu {
+    left: auto;
+  }
+}
+
 /*Johan début du code*/
 /*Contient les badges nouveau et les nombres en cercle*/
 .circle_number {
@@ -756,6 +587,7 @@ svg:hover > path {
   fill: url("#paint0_linear");
   cursor: pointer;
   transition: color 1s ease-out;
+  outline: none;
 }
 
 button {
