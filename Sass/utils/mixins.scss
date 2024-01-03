@@ -199,4 +199,20 @@ button {
     grid-template-rows: 200px 40px auto auto auto;
   }
 }
+.restaurants_background {
+  @include min768 {
+    width: 73%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-row: 3/4;
+  }
+}
+.btn_command {
+  @include min768 {
+    width: 73%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 /*Fin du code*/

@@ -570,6 +570,23 @@ img {
   }
 }
 
+@media (min-width: 768px) {
+  .restaurants_background {
+    width: 73%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-row: 3/4;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn_command {
+    width: 73%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 /*Fin du code*/
 /*Johan début du code*/
 /*Contient les badges nouveau et les nombres en cercle*/
