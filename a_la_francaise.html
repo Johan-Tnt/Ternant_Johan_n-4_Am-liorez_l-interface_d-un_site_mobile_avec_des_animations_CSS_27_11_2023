@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-   <!--Début du code OhMyFood-->
+  <!--Début du code OhMyFood-->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,7 +29,9 @@
   </head>
   <body>
     <header class="logo_orientation">
-      <a href="index.html"><i class="fa-solid fa-arrow-left arrow_space"></i></a>
+      <a href="index.html" class="arrow_style"
+        ><i class="fa-solid fa-arrow-left arrow_space"></i
+      ></a>
       <img
         class="logo_position"
         src="./Assets/Images/OHMYFO~1.SVG"
@@ -40,62 +42,230 @@
     </header>
     <main class="main_background">
       <img
-                class="img_menu img_background"
-                src="./Assets/Restaurants/TOA-HE~1.JPG"
-                alt="Restaurants"
+        class="img_menu img_background"
+        src="./Assets/Restaurants/TOA-HE~1.JPG"
+        alt="Restaurants"
+      />
+      <section
+        class="alignement_fonctionnement background_grey menus_content restaurants_background"
+      >
+        <h1 class="title_menu">
+          À la française
+          <button class="btn_like_menu">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="23"
+              height="21"
+              viewBox="0 0 23 21"
+              fill="none"
+            >
+              <path
+                d="M20.3647 1.4363C18.01 -0.752765 14.5081 -0.359015 12.3468 2.0738L11.5003 3.02536L10.6538 2.0738C8.49677 -0.359015 4.99052 -0.752765 2.63583 1.4363C-0.0626076 3.9488 -0.204405 8.45817 2.21044 11.1816L10.5249 20.5472C11.062 21.1519 11.9343 21.1519 12.4714 20.5472L20.7858 11.1816C23.205 8.45817 23.0632 3.9488 20.3647 1.4363Z"
+                fill="url(#paint0_linear)"
               />
-        <section class="alignement_fonctionnement background_grey menus_content restaurants_background">
-            <h1 class="title_menu">À la française
-              <button>
-              <svg xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 23 21" fill="none">
-                <path d="M20.3647 1.4363C18.01 -0.752765 14.5081 -0.359015 12.3468 2.0738L11.5003 3.02536L10.6538 2.0738C8.49677 -0.359015 4.99052 -0.752765 2.63583 1.4363C-0.0626076 3.9488 -0.204405 8.45817 2.21044 11.1816L10.5249 20.5472C11.062 21.1519 11.9343 21.1519 12.4714 20.5472L20.7858 11.1816C23.205 8.45817 23.0632 3.9488 20.3647 1.4363Z" fill="url(#paint0_linear)"/>
-                <defs>
-                  <linearGradient id="paint0_linear" x1="11.5" y1="-5.45973" x2="3.93419" y2="27.9927" gradientUnits="userSpaceOnUse">
-                    <stop offset="0"stop-color="#9356DC"/>
-                    <stop offset="1" stop-color="#FF79DA"/>
-                  </linearGradient>
-                </defs>
-              </svg>
-              </button></h1> 
-            <h3 class="space_location line_green titles_menu_dish">ENTRÉES</h3>
-           <button class="btn_fonctionnement btn_menu btn_fonctionnement_menus"><h3 class="plate_content">Tartare de poulpe acidulé</h3>
-            <p class="plate_price">Aux zestes d'orange
-           </p> <span class="euro space_euro">25 €</span></button>
-           <button class="btn_fonctionnement btn_menu btn_fonctionnement_menus"><h3 class="plate_content">Velouté de légumes d'antan</h3>
-            <p class="plate_price">Carotte, panais, topinambour
-            </p><span class="euro space_euro">35 €</span></button>
-           <button class="btn_fonctionnement btn_menu btn_fonctionnement_menus"><h3 class="plate_content">Soupe à l'oignon</h3>
-                <p class="plate_price">Revisitée
-                </p><span class="euro space_euro">20 €</span></button>
-            <h3 class="space_menu space_location line_green titles_menu_dish">PLATS</h3>
-           <button class="btn_fonctionnement btn_menu btn_fonctionnement_menus"><h3 class="plate_content">Coquilles Saint-Jacques</h3>
-                <p class="plate_price">Accompagnées d'une purée de panais</p>
-                </p><span class="euro space_euro">40 €</span></button>
-               <button class="btn_fonctionnement btn_menu btn_fonctionnement_menus"><h3 class="plate_content">Magret de canard</h3>
-                    <p class="plate_price">Et parmentier de pommes de terre
-                    </p><span class="euro space_euro">35 €</span></button>
-                   <button class="btn_fonctionnement btn_menu btn_fonctionnement_menus"><h3 class="plate_content">Pigeonneau d’Ille-et-Vilaine</h3>
-                        <p class="plate_price">Sur son lit de gnocchis aux légumes
-                        </p><span class="euro space_euro">44 €</span></button>
-            <h3 class="space_menu space_location line_green titles_menu_dish">DESSERTS</h3>
-           <button class="btn_fonctionnement btn_menu btn_fonctionnement_menus"><h3 class="plate_content">Pétales de violettes glacés</h3>
-                <p class="plate_price">Et purée de noisettes
-                </p><span class="euro space_euro">18 €</span></button>
-               <button class="btn_fonctionnement btn_menu btn_fonctionnement_menus"><h3 class="plate_content">Fondant au chocolat </h3>
-                    <p class="plate_price">Revisité
-                    </p><span class="euro space_euro">22 €</span></button>
-                   <button class="btn_fonctionnement btn_menu btn_fonctionnement_menus"><h3 class="plate_content">Millefeuille croustillant</h3>
-                        <p class="plate_price">Myrtilles et pâte d’amande
-                       </p> <span class="euro space_euro">23 €</span></button>
-        </section>
-        <section class="alignement_fonctionnement background_grey btn_command">
-      <button class="btn_exploration" type="submit">
-        Commander
-      </button>
-    </section>
+              <defs>
+                <linearGradient
+                  id="paint0_linear"
+                  x1="11.5"
+                  y1="-5.45973"
+                  x2="3.93419"
+                  y2="27.9927"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#9356DC" />
+                  <stop offset="1" stop-color="#FF79DA" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </button>
+        </h1>
+
+        <div class="scale-in-center">
+          <h3 class="space_location line_green titles_menu_dish">ENTRÉES</h3>
+          <div class="container-btn">
+            <a
+              href="#"
+              class="btn btn_fonctionnement btn_menu btn_fonctionnement_menus menu_transition container_transition"
+            >
+              <div class="btn-text">
+                <h3 class="plate_content_text">Tartare de poulpe acidulé</h3>
+                <p class="plate_price_text">Au zestes d'orange</p>
+              </div>
+              <div class="btn-circle icon_position">
+                <span class="space_euro">25€</span>
+                <div class="circle_v">
+                  <i class="fa-solid fa-circle-check icon_v"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="scale-in-center">
+          <div class="container-btn">
+            <a
+              href="#"
+              class="btn btn_fonctionnement btn_menu btn_fonctionnement_menus menu_transition container_transition"
+            >
+              <div class="btn-text">
+                <h3 class="plate_content_text">Velouté de légumes d'antan</h3>
+                <p class="plate_price_text">Carotte, panais, topinambour</p>
+              </div>
+              <div class="btn-circle icon_position">
+                <span class="space_euro">35€</span>
+                <div class="circle_v">
+                  <i class="fa-solid fa-circle-check icon_v"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="scale-in-center">
+          <div class="container-btn">
+            <a
+              href="#"
+              class="btn btn_fonctionnement btn_menu btn_fonctionnement_menus menu_transition container_transition"
+            >
+              <div class="btn-text">
+                <h3 class="plate_content_text">Soupe à l'oignon</h3>
+                <p class="plate_price_text">Revisitée</p>
+              </div>
+              <div class="btn-circle icon_position">
+                <span class="space_euro">20€</span>
+                <div class="circle_v">
+                  <i class="fa-solid fa-circle-check icon_v"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="scale-in-center-2">
+          <h3 class="space_location line_green titles_menu_dish">PLATS</h3>
+          <div class="container-btn">
+            <a
+              href="#"
+              class="btn btn_fonctionnement btn_menu btn_fonctionnement_menus menu_transition container_transition"
+            >
+              <div class="btn-text">
+                <h3 class="plate_content_text">Coquilles Saint-Jacques</h3>
+                <p class="plate_price_text">Accompagné d'une purée de panais</p>
+              </div>
+              <div class="btn-circle icon_position">
+                <span class="space_euro">40€</span>
+                <div class="circle_v">
+                  <i class="fa-solid fa-circle-check icon_v"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="scale-in-center-2">
+          <div class="container-btn">
+            <a
+              href="#"
+              class="btn btn_fonctionnement btn_menu btn_fonctionnement_menus menu_transition container_transition"
+            >
+              <div class="btn-text">
+                <h3 class="plate_content_text">Magret de canard</h3>
+                <p class="plate_price_text">Et parmentier de pommes de terre</p>
+              </div>
+              <div class="btn-circle icon_position">
+                <span class="space_euro">35€</span>
+                <div class="circle_v">
+                  <i class="fa-solid fa-circle-check icon_v"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="scale-in-center-2">
+          <div class="container-btn">
+            <a
+              href="#"
+              class="btn btn_fonctionnement btn_menu btn_fonctionnement_menus menu_transition container_transition"
+            >
+              <div class="btn-text">
+                <h3 class="plate_content_text">Pigeonneau d’Ille-et-Vilaine</h3>
+                <p class="plate_price_text">
+                  Sur son lit de gnocchis aux légumes
+                </p>
+              </div>
+              <div class="btn-circle icon_position">
+                <span class="space_euro">44€</span>
+                <div class="circle_v">
+                  <i class="fa-solid fa-circle-check icon_v"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="scale-in-center-3">
+          <h3 class="space_location line_green titles_menu_dish">DESSERTS</h3>
+          <div class="container-btn">
+            <a
+              href="#"
+              class="btn btn_fonctionnement btn_menu btn_fonctionnement_menus menu_transition container_transition"
+            >
+              <div class="btn-text">
+                <h3 class="plate_content_text">Pétales de violettes glacés</h3>
+                <p class="plate_price_text">Et purée de noisettes</p>
+              </div>
+              <div class="btn-circle icon_position">
+                <span class="space_euro">18€</span>
+                <div class="circle_v">
+                  <i class="fa-solid fa-circle-check icon_v"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="scale-in-center-3">
+          <div class="container-btn">
+            <a
+              href="#"
+              class="btn btn_fonctionnement btn_menu btn_fonctionnement_menus menu_transition container_transition"
+            >
+              <div class="btn-text">
+                <h3 class="plate_content_text">Fondant au chocolat</h3>
+                <p class="plate_price_text">Revisité</p>
+              </div>
+              <div class="btn-circle icon_position">
+                <span class="space_euro">22€</span>
+                <div class="circle_v">
+                  <i class="fa-solid fa-circle-check icon_v"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="scale-in-center-3">
+          <div class="container-btn">
+            <a
+              href="#"
+              class="btn btn_fonctionnement btn_menu btn_fonctionnement_menus menu_transition container_transition"
+            >
+              <div class="btn-text">
+                <h3 class="plate_content_text">Millefeuille croustillant</h3>
+                <p class="plate_price_text">Myrtilles et pâte d'amande</p>
+              </div>
+              <div class="btn-circle icon_position">
+                <span class="space_euro">23€</span>
+                <div class="circle_v">
+                  <i class="fa-solid fa-circle-check icon_v"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="alignement_fonctionnement background_grey alignement_menu btn_command"
+      >
+        <button class="btn_exploration" type="submit">Commander</button>
+      </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer_all">
       <nav>
         <div class="space_footer">
           <img
@@ -114,8 +284,8 @@
             </li>
             <li class="li_footer">
               <a href="#" class="lien_footer"
-                ><i class="fa-solid fa-handshake-angle icon_footer_2"></i>Devenir
-                partenaire</a
+                ><i class="fa-solid fa-handshake-angle icon_footer_2"></i
+                >Devenir partenaire</a
               >
             </li>
             <li class="li_footer">

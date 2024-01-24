@@ -35,7 +35,7 @@
   </head>
   <body>
     <header class="logo_orientation">
-      <a href="index.html"
+      <a href="index.html" class="arrow_style"
         ><i class="fa-solid fa-arrow-left arrow_space"></i
       ></a>
       <img
@@ -57,7 +57,7 @@
       >
         <h1 class="title_menu">
           Le délice des sens
-          <button>
+          <button class="btn_like_menu">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="23"
@@ -85,65 +85,199 @@
             </svg>
           </button>
         </h1>
-        <h3 class="space_location line_green titles_menu_dish">ENTRÉES</h3>
-        <button class="btn_fonctionnement btn_menu btn_fonctionnement_menus">
-          <h3 class="plate_content">Tartare de thon</h3>
-          <p class="plate_price">Assaisonné au yuzu</p>
-          <span class="euro space_euro">25 €</span>
-        </button>
-        <button class="btn_fonctionnement btn_menu btn_fonctionnement_menus">
-          <h3 class="plate_content">Bouchée de homard croustillant</h3>
-          <p class="plate_price">Et sa farandole de petits légumes</p>
-          <span class="euro space_euro">35 €</span>
-        </button>
-        <button class="btn_fonctionnement btn_menu btn_fonctionnement_menus">
-          <h3 class="plate_content">Poulet rôti aux herbes de Provence</h3>
-          <p class="plate_price">Et sa crème de truffe</p>
-          <span class="euro space_euro">40 €</span>
-        </button>
-        <h3 class="space_menu space_location line_green titles_menu_dish">
-          PLATS
-        </h3>
-        <button class="btn_fonctionnement btn_menu btn_fonctionnement_menus">
-          <h3 class="plate_content">Poulet rôti aux herbes de Provence</h3>
-          <p class="plate_price">Et sa crème de truffe</p>
-          <span class="euro space_euro">40 €</span>
-        </button>
-        <button class="btn_fonctionnement btn_menu btn_fonctionnement_menus">
-          <h3 class="plate_content">Langouste rôtie</h3>
-          <p class="plate_price">Et ses légumes de saison</p>
-          <span class="euro space_euro">35 €</span>
-        </button>
-        <button class="btn_fonctionnement btn_menu btn_fonctionnement_menus">
-          <h3 class="plate_content">Côte de bœuf Angus</h3>
-          <p class="plate_price">Et sa purée de panais</p>
-          <span class="euro space_euro">44 €</span>
-        </button>
-        <h3 class="space_menu space_location line_green titles_menu_dish">
-          DESSERTS
-        </h3>
-        <button class="btn_fonctionnement btn_menu btn_fonctionnement_menus">
-          <h3 class="plate_content">Farandole de desserts</h3>
-          <p class="plate_price">Du chef</p>
-          <span class="euro space_euro">18 €</span>
-        </button>
-        <button class="btn_fonctionnement btn_menu btn_fonctionnement_menus">
-          <h3 class="plate_content">Crème brulée</h3>
-          <p class="plate_price">Revisitée</p>
-          <span class="euro space_euro">22 €</span>
-        </button>
-        <button class="btn_fonctionnement btn_menu btn_fonctionnement_menus">
-          <h3 class="plate_content">Tiramisu</h3>
-          <p class="plate_price">À la noisette</p>
-          <span class="euro space_euro">23 €</span>
-        </button>
+
+        <div class="scale-in-center">
+          <h3 class="space_location line_green titles_menu_dish">ENTRÉES</h3>
+          <div class="container-btn">
+            <a
+              href="#"
+              class="btn btn_fonctionnement btn_menu btn_fonctionnement_menus menu_transition container_transition"
+            >
+              <div class="btn-text">
+                <h3 class="plate_content_text">Tartare de thon</h3>
+                <p class="plate_price_text">Assaisonné au yuzu</p>
+              </div>
+              <div class="btn-circle icon_position">
+                <span class="space_euro">25€</span>
+                <div class="circle_v">
+                  <i class="fa-solid fa-circle-check icon_v"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="scale-in-center">
+          <div class="container-btn">
+            <a
+              href="#"
+              class="btn btn_fonctionnement btn_menu btn_fonctionnement_menus menu_transition container_transition"
+            >
+              <div class="btn-text">
+                <h3 class="plate_content_text">
+                  Bouchée de homard croustillant
+                </h3>
+                <p class="plate_price_text">
+                  Et sa farandole de petits légumes
+                </p>
+              </div>
+              <div class="btn-circle icon_position">
+                <span class="space_euro">35€</span>
+                <div class="circle_v">
+                  <i class="fa-solid fa-circle-check icon_v"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="scale-in-center">
+          <div class="container-btn">
+            <a
+              href="#"
+              class="btn btn_fonctionnement btn_menu btn_fonctionnement_menus menu_transition container_transition"
+            >
+              <div class="btn-text">
+                <h3 class="plate_content_text">
+                  Poulet rôti aux herbes de Provence
+                </h3>
+                <p class="plate_price_text">Et sa crème de truffe</p>
+              </div>
+              <div class="btn-circle icon_position">
+                <span class="space_euro">40€</span>
+                <div class="circle_v">
+                  <i class="fa-solid fa-circle-check icon_v"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="scale-in-center-2">
+          <h3 class="space_location line_green titles_menu_dish">PLATS</h3>
+          <div class="container-btn">
+            <a
+              href="#"
+              class="btn btn_fonctionnement btn_menu btn_fonctionnement_menus menu_transition container_transition"
+            >
+              <div class="btn-text">
+                <h3 class="plate_content_text">
+                  Poulet rôti aux herbes de Provence
+                </h3>
+                <p class="plate_price_text">Et sa crème de truffe</p>
+              </div>
+              <div class="btn-circle icon_position">
+                <span class="space_euro">40€</span>
+                <div class="circle_v">
+                  <i class="fa-solid fa-circle-check icon_v"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="scale-in-center-2">
+          <div class="container-btn">
+            <a
+              href="#"
+              class="btn btn_fonctionnement btn_menu btn_fonctionnement_menus menu_transition container_transition"
+            >
+              <div class="btn-text">
+                <h3 class="plate_content_text">Langouste rôtie</h3>
+                <p class="plate_price_text">Et ses légumes de saison</p>
+              </div>
+              <div class="btn-circle icon_position">
+                <span class="space_euro">35€</span>
+                <div class="circle_v">
+                  <i class="fa-solid fa-circle-check icon_v"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="scale-in-center-2">
+          <div class="container-btn">
+            <a
+              href="#"
+              class="btn btn_fonctionnement btn_menu btn_fonctionnement_menus menu_transition container_transition"
+            >
+              <div class="btn-text">
+                <h3 class="plate_content_text">Côte de boeuf Angus</h3>
+                <p class="plate_price_text">Et sa purée de panais</p>
+              </div>
+              <div class="btn-circle icon_position">
+                <span class="space_euro">44€</span>
+                <div class="circle_v">
+                  <i class="fa-solid fa-circle-check icon_v"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="scale-in-center-3">
+          <h3 class="space_location line_green titles_menu_dish">DESSERTS</h3>
+          <div class="container-btn">
+            <a
+              href="#"
+              class="btn btn_fonctionnement btn_menu btn_fonctionnement_menus menu_transition container_transition"
+            >
+              <div class="btn-text">
+                <h3 class="plate_content_text">Farandole de desserts</h3>
+                <p class="plate_price_text">Du chef</p>
+              </div>
+              <div class="btn-circle icon_position">
+                <span class="space_euro">18€</span>
+                <div class="circle_v">
+                  <i class="fa-solid fa-circle-check icon_v"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="scale-in-center-3">
+          <div class="container-btn">
+            <a
+              href="#"
+              class="btn btn_fonctionnement btn_menu btn_fonctionnement_menus menu_transition container_transition"
+            >
+              <div class="btn-text">
+                <h3 class="plate_content_text">Crème brulée</h3>
+                <p class="plate_price_text">Revisitée</p>
+              </div>
+              <div class="btn-circle icon_position">
+                <span class="space_euro">22€</span>
+                <div class="circle_v">
+                  <i class="fa-solid fa-circle-check icon_v"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="scale-in-center-3">
+          <div class="container-btn">
+            <a
+              href="#"
+              class="btn btn_fonctionnement btn_menu btn_fonctionnement_menus menu_transition container_transition"
+            >
+              <div class="btn-text">
+                <h3 class="plate_content_text">Tiramisu</h3>
+                <p class="plate_price_text">À la noisette</p>
+              </div>
+              <div class="btn-circle icon_position">
+                <span class="space_euro">23€</span>
+                <div class="circle_v">
+                  <i class="fa-solid fa-circle-check icon_v"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
       </section>
-      <section class="alignement_fonctionnement background_grey btn_command">
+
+      <section
+        class="alignement_fonctionnement background_grey alignement_menu btn_command"
+      >
         <button class="btn_exploration" type="submit">Commander</button>
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer_all">
       <nav>
         <div class="space_footer">
           <img

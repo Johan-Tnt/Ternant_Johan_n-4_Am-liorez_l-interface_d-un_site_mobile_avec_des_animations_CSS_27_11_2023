@@ -10,6 +10,11 @@
   padding-bottom: 10px;
   box-shadow: 0px 0px 2px 1px rgb(165 165 165);
   /*Contient le background gris pour la localisation*/
+  @include min768 {
+    box-shadow: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
 }
 .space_location {
   font-size: 16px;
@@ -22,17 +27,25 @@
 .space_reservation {
   font-size: 24px;
   text-align: center;
+  @include min768 {
+    font-size: 40px;
+  }
 }
 .space_discovery {
   padding-bottom: 15px;
   font-size: 18px;
   text-align: center;
+  overflow: initial;
+  white-space: initial;
 }
 
 /*Contient les éléments de Fonctionnements*/
 .space_fonctionnement {
   padding-top: 25px;
   grid-column: 1/-1;
+  @include min768 {
+    padding-top: 1px;
+  }
 }
 .alignement_fonctionnement {
   flex-direction: column;
@@ -42,11 +55,40 @@
   padding-bottom: 60px;
   padding-top: 40px;
 }
-
+.alignement_fonctionnement_2 {
+  @include min768 {
+    gap: 15px;
+  }
+}
+.btn_fonctionnement_direction {
+  @include min768 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1080px;
+  }
+}
+.btn_order_1 {
+  @include min768 {
+    order: 1;
+  }
+}
+.btn_order_2 {
+  @include min768 {
+    order: 2;
+  }
+}
+.btn_order_3 {
+  @include min768 {
+    order: 3;
+  }
+}
 /*Contient les éléments de Restaurants*/
 .alignement_restaurants {
   padding: 20px;
   padding-top: 50px;
+  @include min768 {
+    max-width: 1080px;
+  }
 }
 .img_restaurants {
   width: 100%;
@@ -61,6 +103,15 @@
   padding: 0px 15px;
   padding-bottom: 70px;
   position: relative;
+  @include min768 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    column-gap: 10px;
+    max-width: 1080px;
+    gap: 50px;
+    padding-bottom: 30px;
+  }
 }
 
 .card_restaurants {
@@ -70,6 +121,9 @@
   height: 251px;
   margin-top: 15px;
   position: relative;
+  @include min768 {
+    position: relative;
+  }
 }
 .description_restaurants {
   text-decoration: none;
@@ -78,5 +132,15 @@
 .restaurants_content {
   padding-left: 10px;
   padding-top: 5px;
+}
+.dish_title {
+  @include min768 {
+    font-size: 18px;
+  }
+}
+.dish_content {
+  @include min768 {
+    font-size: 17px;
+  }
 }
 /*Fin du code*/
