@@ -5,10 +5,19 @@
 .logo_orientation {
   display: flex;
   justify-content: center;
+  @include min768 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 .logo_position {
   margin-bottom: 13px;
   margin-top: 14px;
+  @include min768 {
+    position: relative;
+    right: 30px;
+    left: 1px;
+  }
 }
 /*Logo pour les pages menu*/
 /*Fin du code*/

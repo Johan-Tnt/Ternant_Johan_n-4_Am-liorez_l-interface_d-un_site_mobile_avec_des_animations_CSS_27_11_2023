@@ -14,6 +14,9 @@
   position: relative;
   top: 65px;
   right: 10px;
+  @include min768 {
+    top: 65px;
+  }
 }
 .badge_new {
   border-radius: 3px;
@@ -27,8 +30,7 @@
   font-size: 14px;
   margin-right: 15px;
   position: absolute;
-  /*margin-top: 15px;*/
-  right: 15px;
-  top: 15px;
+  right: 3px;
+  top: 12px;
 }
 /*Fin du code*/

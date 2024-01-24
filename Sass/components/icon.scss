@@ -1,7 +1,11 @@
 /*Johan début du code*/
-/**Icon du body de la homepage**/
 
+/**Icon du body de la homepage**/
 /*Contient la mise en page des icons OhMyFood*/
+.icon_location {
+  padding-right: 16px;
+  font-size: 16px;
+}
 .icon_body {
   padding-right: 25px;
   padding-bottom: 25px;
@@ -28,5 +32,20 @@
 .icon_footer_2 {
   padding-right: 10px;
   font-size: 12px;
+}
+
+.icon_v {
+  color: $white-color;
+  font-size: 20px;
+  margin: 15px;
+  margin-top: 25px;
+}
+.icon_position {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+  transform: translateX(59px);
+  transition: all 3s;
 }
 /*Fin du code*/
