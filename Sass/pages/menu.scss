@@ -5,13 +5,21 @@
 .menu_all {
   border-radius: 30px;
 }
-
+.menus_content {
+  @include min768 {
+    align-items: center;
+  }
+}
 .title_logo {
   padding-right: 90px;
 }
 .line_green {
   border-bottom: 3px solid $tertiary-color;
   width: 40px;
+  margin-bottom: 12px;
+  min-width: initial;
+  white-space: initial;
+  overflow: initial;
 }
 .img_menu {
   width: 100%;
@@ -29,21 +37,17 @@
   font-weight: bold;
   display: block;
   text-align: end;
-  padding-right: 15px;
   position: relative;
-  bottom: 20px;
+  margin-right: 13.5px;
+  top: 13.5px;
+  right: 13.5px;
 }
 
-.plate_content {
+.plate_content_text {
   font-size: 18px;
 }
-
-.plate_price {
+.plate_price_text {
   font-size: 15px;
-  max-width: 100px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
 }
 
 .arrow_space {
@@ -51,17 +55,25 @@
   font-size: 20px;
   position: absolute;
   left: 5px;
+  @include min768 {
+    position: absolute;
+    left: 5px;
+  }
 }
-
+.arrow_style {
+  color: inherit;
+}
 .alignement_menu {
   padding-top: 1px;
 }
-
 /*Background grey au dessus de l'image*/
 .main_background {
   display: grid;
   grid-template-rows: 200px 75px auto auto auto;
   grid-template-columns: auto;
+  @include min768 {
+    grid-template-rows: 200px 40px auto auto auto;
+  }
 }
 .img_background {
   grid-row: 1/3;
@@ -73,8 +85,12 @@
   border-radius: 30px;
   border-bottom-left-radius: initial;
   border-bottom-right-radius: initial;
-}
-.btn_command {
-  grid-column: 1/-1;
+  @include min768 {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-row: 3/4;
+    max-width: 1080px;
+  }
 }
 /*Fin du code*/

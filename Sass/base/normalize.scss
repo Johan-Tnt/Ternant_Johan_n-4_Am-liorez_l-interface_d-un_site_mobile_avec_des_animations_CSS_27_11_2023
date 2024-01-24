@@ -1,6 +1,5 @@
 /*Johan début du code*/
 /*Contient le code de la mise en page générale du site OhMyFood*/
-
 * {
   /*Personnalisation et mise en page*/
   font-family: "Roboto", sans-serif;
@@ -9,14 +8,26 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/*Mise en page du Loader pour le site internet*/
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .title_menu {
   font-family: "Shrikhand", serif;
   /*Police de charactère pour les Titres et Logo*/
   font-size: 28px;
   padding-bottom: 25px;
 }
-
+/*Pour éviter la déformation des blocs au dessus de 1440px*/
+.main_container {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
 /*Rajout de code Test*/
 /*Pour que les images rester toujours centrée dans un bloc*/
 img {

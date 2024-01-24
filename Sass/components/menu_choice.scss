@@ -1,0 +1,86 @@
+/*Johan début du code*/
+/*Animation + Transition des choix de chaque menus*/
+.menu_transition {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  @include min768 {
+    overflow: initial;
+  }
+}
+.container_transition:hover {
+  & .icon_position {
+    transform: translateX(0px);
+  }
+}
+.inside {
+  display: flex;
+  width: 100%;
+}
+.btn {
+  display: flex;
+  justify-content: space-between;
+
+  &__text {
+    width: 100%;
+    min-width: 100px;
+    overflow: hidden;
+    justify-self: flex-start;
+    white-space: nowrap;
+    align-self: center;
+    padding: 3px;
+    text-overflow: ellipsis;
+  }
+}
+.animation {
+  display: grid;
+  height: 100%;
+  grid-template: auto / 50px 50px;
+  transition: all 0.1s ease;
+  justify-self: flex-end;
+  &__price {
+    align-self: center;
+    justify-self: center;
+  }
+  &__box {
+    width: 50px;
+    height: 100%;
+  }
+}
+.container-btn {
+  box-sizing: border-box;
+  display: grid;
+  width: 100%;
+}
+.btn {
+  display: flex;
+  padding-top: initial;
+}
+.btn-circle {
+  display: grid;
+  height: 100%;
+  grid-template: auto / 50px 50px;
+}
+span {
+  align-self: center;
+}
+.btn-text {
+  display: grid;
+}
+p,
+h3 {
+  min-width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.circle_v {
+  border: 1px solid #d9d9d9;
+  background: $tertiary-color;
+  border-radius: 0 20px 20px 0;
+  max-width: 59px;
+  height: 72px;
+  cursor: pointer;
+}
+/*Fin du code*/

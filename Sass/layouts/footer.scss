@@ -2,9 +2,13 @@
 /*CSS du footer*/
 
 /***Bas du site OhMyFood***/
-.footer {
+.footer_all {
   background-color: $grey;
   /*Pour le rectangle gris foncé du Footer*/
+  @include min768 {
+    display: flex;
+    justify-content: flex-end;
+  }
 }
 .li_footer {
   list-style-type: none;
@@ -13,9 +17,25 @@
 }
 .space_footer {
   padding: 22px 25px;
+  @include min768 {
+    display: flex;
+  }
 }
 .lien_footer {
   color: #fff;
   text-decoration: none;
+}
+.order_footer {
+  @include min768 {
+    order: 1;
+  }
+}
+.ul_alignement {
+  @include min768 {
+    display: flex;
+    gap: 16px;
+    padding: 30px 25px;
+    padding-right: 70px;
+  }
 }
 /*Fin du code*/
