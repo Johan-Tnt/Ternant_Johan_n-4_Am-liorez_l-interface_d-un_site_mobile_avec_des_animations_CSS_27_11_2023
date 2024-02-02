@@ -1,7 +1,7 @@
 /*Johan début du code*/
 /*Animation 1 pour les "Entrées" des restaurants*/
 .scale-in-center {
-  -webkit-animation: scale-in-center 01s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s
+  -webkit-animation: scale-in-center 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s
     both;
   animation: scale-in-center 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s both;
 }
@@ -9,7 +9,7 @@
   0% {
     -webkit-transform: scale(0);
     transform: scale(0);
-    opacity: 1;
+    opacity: 0;
   }
   100% {
     -webkit-transform: scale(1);
@@ -21,7 +21,7 @@
   0% {
     -webkit-transform: scale(0);
     transform: scale(0);
-    opacity: 1;
+    opacity: 0;
   }
   100% {
     -webkit-transform: scale(1);
@@ -39,7 +39,7 @@
   0% {
     -webkit-transform: scale(0);
     transform: scale(0);
-    opacity: 1;
+    opacity: 0;
   }
   100% {
     -webkit-transform: scale(1);
@@ -51,7 +51,7 @@
   0% {
     -webkit-transform: scale(0);
     transform: scale(0);
-    opacity: 1;
+    opacity: 0;
   }
   100% {
     -webkit-transform: scale(1);
