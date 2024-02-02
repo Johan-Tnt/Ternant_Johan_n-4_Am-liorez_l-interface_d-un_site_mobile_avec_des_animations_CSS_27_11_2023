@@ -4,11 +4,16 @@
 svg > path {
   fill: none;
   stroke: black;
+  opacity: 0.7s;
+  transition: 1s;
 }
 svg:hover > path {
   fill: url("#paint0_linear");
   cursor: pointer;
-  transition: color 1s ease-out;
+  /*transition: color 1s ease-out;*/
+  transition: 1s;
+  stroke: transparent;
+  opacity: 2;
 }
 button {
   background: transparent;
