@@ -214,7 +214,7 @@ img {
   align-items: flex-end;
   height: 100%;
   transform: translateX(59px);
-  transition: all 3s;
+  transition: all 1s;
 }
 
 /*Fin du code*/
